@@ -3,7 +3,7 @@
   "name": "ip-tools",
   "title": "IP Tools",
   "description": "This is an extension plugin for converting, validating, and calculating IP subnets. (net, mask, netmask, ip2long, long2ip, cidr, ipv4, ipv6 & geoLocation)",
-  "icon": "extension_icon.png",
+  "icon": "assets/extension_icon.png",
   "author": "almatkai",
   "contributors": ["darkintaqt"],
   "categories": ["Developer Tools", "Productivity"],
