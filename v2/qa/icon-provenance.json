@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/raycast/extensions",
+  "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+  "upstreamPath": "extensions/ip-tools/assets/extension_icon.png",
+  "manifestPath": "assets/extension_icon.png",
+  "downloadUrl": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/ip-tools/assets/extension_icon.png",
+  "upstreamAssetInventory": [
+    {
+      "name": "extension_icon.png",
+      "gitBlob": "7ca3277bb1de0c71a381b954f98ad6806a102c8d",
+      "bytes": 28354
+    }
+  ],
+  "gitBlob": "7ca3277bb1de0c71a381b954f98ad6806a102c8d",
+  "sha256": "0e7710cd7aa7cb4530f767115623f7064a997365344eb9fd257e43c898befaa7",
+  "bytes": 28354,
+  "sourceLicense": "notices/raycast-LICENSE",
+  "sourceLicenseSha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+  "freshFetched": true,
+  "identicalV1Bytes": true,
+  "conversion": null,
+  "commandIcons": "All nine commands inherit the single extension-owned primary asset. Stock UI Icon tokens use native renderer symbols."
+}

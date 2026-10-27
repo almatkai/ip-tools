@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src-tauri/src/native_core/launcher/stores.rs",
+    "symbol": "pub fn text_arg",
+    "exportFile": "qa/fixtures/host/exports/text_arg.rs",
+    "sourceBlob": "c7919f97660375d04250b1a5e831d94f5d39db29",
+    "fragmentSha256": "17cec36ef596d1ce45dcd35c13ec93d6204d255604210f1b4c75b1d8be43f94a"
+  },
+  {
+    "path": "src/main/extension-runner.ts",
+    "symbol": "function normalizeActionTitle",
+    "exportFile": "qa/fixtures/host/exports/normalizeActionTitle.ts",
+    "sourceBlob": "58ef92798dc21d8c98af731ec47944aff55b1d96",
+    "fragmentSha256": "314607bfb9e9625a6bd590e2655de3d959b35c314efdf89bb58a3f231d1bae79"
+  }
+]

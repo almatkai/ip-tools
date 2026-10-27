@@ -1,0 +1,481 @@
+--- a/src/renderer/ExtensionRuntimeView.tsx
++++ b/src/renderer/ExtensionRuntimeView.tsx
+@@ -423,65 +423,47 @@
+   initial: Extract<ExtensionRunCommandResult, { ok: true; mode: 'view' }>
+   onBack: () => void
+ }): JSX.Element {
++  const [seed, setSeed] = useState(initial)
+   const [state, setState] = useState<RuntimeViewState>(() => fromRunResult(initial))
+   const [error, setError] = useState<string | null>(null)
+   const [actionNotice, setActionNotice] = useState<ActionNotice | null>(null)
++  const sessionOwner = `${seed.sessionId}:${seed.generation ?? ''}`
++  const currentSession = useRef<string | null>(sessionOwner)
+   const searchRequestSeq = useRef(0)
+-  const currentSession = useRef<string | null>(null)
+-  const sessionOwner = `${state.sessionId}:${state.generation ?? ''}`
+-  currentSession.current = sessionOwner
+-  useEffect(
+-    () => () => {
+-      currentSession.current = null
+-      searchRequestSeq.current += 1
+-    },
+-    []
+-  )
++  const inputPending = useRef<number | null>(null)
++  const draft = useRef({ revision: 0, acknowledged: 0, query: initial.root.props?.searchText,
++    choice: initial.root.props?.__clientChoice })
++  const latestState = useRef(state)
++  latestState.current = state
+   const disposeTimerRef = useRef<{ sessionId: string; timer: number } | null>(null)
+   const actionNoticeTimerRef = useRef<number | null>(null)
+-
++  const isFormSurface = state.root.type.startsWith('Form')
+   const showActionNotice = useCallback((message: string, persist = false): void => {
+-    if (actionNoticeTimerRef.current !== null) {
+-      window.clearTimeout(actionNoticeTimerRef.current)
+-      actionNoticeTimerRef.current = null
+-    }
+-    const tone = /could not|failed|failure|error/i.test(message) ? 'error' : 'success'
+-    setActionNotice({ message, tone })
+-    if (persist) return
+-
+-    actionNoticeTimerRef.current = window.setTimeout(() => {
++    if (actionNoticeTimerRef.current !== null) window.clearTimeout(actionNoticeTimerRef.current)
++    actionNoticeTimerRef.current = null
++    setActionNotice({ message, tone: /could not|failed|failure|error|unknown|uncertain/i.test(message) ? 'error' : 'success' })
++    if (!persist) actionNoticeTimerRef.current = window.setTimeout(() => {
+       actionNoticeTimerRef.current = null
+       setActionNotice(null)
+     }, 2400)
+   }, [])
+-
+-  const isFormSurface = state.root.type.startsWith('Form')
+-
+-  const showActionFailure = useCallback(
+-    (message: string): void => {
+-      showActionNotice(`Failed · ${message}`, isFormSurface)
+-    },
+-    [isFormSurface, showActionNotice]
+-  )
+-
+   useEffect(() => {
+     currentSession.current = `${initial.sessionId}:${initial.generation ?? ''}`
++    setSeed(initial)
+     searchRequestSeq.current += 1
++    inputPending.current = null
++    draft.current = { revision: 0, acknowledged: 0, query: initial.root.props?.searchText,
++      choice: initial.root.props?.__clientChoice }
+     setState(fromRunResult(initial))
+     setError(null)
+-  }, [initial])
+-
+-  useEffect(
+-    () => () => {
+-      if (actionNoticeTimerRef.current !== null) {
+-        window.clearTimeout(actionNoticeTimerRef.current)
+-      }
+-    },
+-    []
+-  )
+-
+-  // Cancel only the same-session StrictMode remount; a new session must still
+-  // dispose its predecessor even when both effects run in the same render.
++    setActionNotice(null)
++    return () => {
++      currentSession.current = null
++      searchRequestSeq.current += 1
++      inputPending.current = null
++      if (actionNoticeTimerRef.current !== null) window.clearTimeout(actionNoticeTimerRef.current)
++    }
++  }, [initial.sessionId, initial.generation])
+   useEffect(() => {
+     const pending = disposeTimerRef.current
+     if (pending?.sessionId === state.sessionId) {
+@@ -498,104 +480,107 @@
+     }
+   }, [state.sessionId])
+ 
++  // A model epoch is never a client input revision. Read-only recovery may
++  // acknowledge only the exact complete draft, never merely clear a busy flag.
++  const acceptView = (result: Extract<ExtensionRunCommandResult, { ok: true; mode: 'view' }>, inputReply = false): boolean => {
++    if (result.sessionId !== seed.sessionId || result.generation !== seed.generation) return false
++    const atomic = typeof latestState.current.root.props?.__clientInputAction === 'string'
++    if (atomic && result.root.props?.__clientRevision !== draft.current.revision) return false
++    if (!atomic && !inputReply && draft.current.revision > draft.current.acknowledged) return false
++    draft.current.acknowledged = draft.current.revision
++    setState(fromRunResult(result))
++    setError(null)
++    return true
++  }
++  const readOnly = async (loadMore = false): Promise<void> => {
++    if (currentSession.current !== sessionOwner || inputPending.current !== null) return
++    const seq = ++searchRequestSeq.current
++    try {
++      const result = await (loadMore ? window.tezbar.extensionLoadMore : window.tezbar.extensionRefreshSession)({ sessionId: seed.sessionId })
++      if (currentSession.current !== sessionOwner || seq !== searchRequestSeq.current) return
++      if (!result.ok) { setError(result.message); return }
++      if (result.mode === 'view') acceptView(result)
++    } catch (error) {
++      if (currentSession.current === sessionOwner && seq === searchRequestSeq.current)
++        setError(error instanceof Error ? error.message : String(error))
++    }
++  }
+   useEffect(() => {
+-    let cancelled = false
+-    const stop = startSessionRefresh({
+-      sessionId: state.sessionId,
+-      generation: state.generation,
+-      refreshMs: state.refreshMs,
+-      subscribe: window.tezbar.onExtensionSessionInvalidated,
+-      subscribeVisibility: window.tezbar.onWindowVisibility,
+-      refresh: async () => {
+-        try {
+-          const result = await window.tezbar.extensionRefreshSession({ sessionId: state.sessionId })
+-          if (cancelled || (result.ok && result.mode === 'unchanged')) return
+-          if (!result.ok) {
+-            setError(result.message)
+-            return
+-          }
+-          if (result.mode === 'no-view') {
+-            setState((prev) => ({ ...prev, message: result.message }))
+-            return
+-          }
+-          if (result.sessionId !== state.sessionId || result.generation !== state.generation) return
+-          setState(fromRunResult(result))
+-        } catch (error) {
+-          if (!cancelled) setError(error instanceof Error ? error.message : String(error))
+-        }
+-      },
+-    })
+-    return () => {
+-      cancelled = true
+-      stop()
+-    }
+-  }, [state.sessionId, state.generation, state.refreshMs])
+-
+-  const handleSearchTextChanged = useCallback(
+-    async (searchText: string) => {
+-      const requestSeq = searchRequestSeq.current + 1
+-      searchRequestSeq.current = requestSeq
+-      console.log(`[RuntimeView] Search text changed, sending to sandbox: "${searchText}"`)
+-      const result = await window.tezbar.extensionSearchTextChanged({
+-        sessionId: state.sessionId,
+-        searchText,
+-      })
+-      if (requestSeq !== searchRequestSeq.current || currentSession.current !== sessionOwner) return
+-
+-      if (!result.ok) {
+-        console.error('[RuntimeView] Search failed:', result.message)
+-        setError(result.message)
+-        return
++    const stop = startSessionRefresh({ sessionId: state.sessionId, generation: state.generation,
++      refreshMs: state.refreshMs, subscribe: window.tezbar.onExtensionSessionInvalidated,
++      subscribeVisibility: window.tezbar.onWindowVisibility, refresh: () => readOnly() })
++    return stop
++  }, [state.sessionId, state.generation, state.refreshMs, sessionOwner])
++
++  const sendInput = async (change: { query?: unknown; choice?: unknown }): Promise<void> => {
++    if (currentSession.current !== sessionOwner) return
++    if (draft.current.revision >= Number.MAX_SAFE_INTEGER) { setError('Input revision limit reached; reopen session'); return }
++    const revision = ++draft.current.revision
++    if (Object.hasOwn(change, 'query')) draft.current.query = change.query
++    if (Object.hasOwn(change, 'choice')) draft.current.choice = change.choice
++    const seq = ++searchRequestSeq.current
++    inputPending.current = revision
++    setError(null)
++    setActionNotice(null)
++    if (actionNoticeTimerRef.current !== null) window.clearTimeout(actionNoticeTimerRef.current)
++    // Revoke visible stale rows immediately. Query/choice remain client owned
++    // even if this request fails, is unchanged, or completes out of order.
++    setState(prev => ({ ...prev, actions: prev.actions.filter(a => a.id.startsWith('control:')),
++      root: { ...prev.root, children: [], props: { ...prev.root.props, isLoading: true, searchText: draft.current.query,
++        searchBarAccessory: prev.root.props?.searchBarAccessory ? {
++          ...(prev.root.props.searchBarAccessory as ExtensionRuntimeNode), props: {
++            ...(prev.root.props.searchBarAccessory as ExtensionRuntimeNode).props, value: draft.current.choice }
++        } : undefined } } }))
++    const inputAction = latestState.current.root.props?.__clientInputAction
++    try {
++      const result = typeof inputAction === 'string'
++        ? await window.tezbar.extensionInvokeAction({ sessionId: seed.sessionId, actionId: inputAction,
++            formValues: { revision, searchText: draft.current.query, value: draft.current.choice } })
++        : await window.tezbar.extensionSearchTextChanged({ sessionId: seed.sessionId, searchText: String(draft.current.query ?? '') })
++      if (currentSession.current !== sessionOwner || seq !== searchRequestSeq.current) return
++      if (!result.ok) { setError(result.message); return }
++      if (result.mode !== 'view' || !acceptView(result, true))
++        setError('Input was not acknowledged. Refresh or enter a new value.')
++    } catch (error) {
++      if (currentSession.current === sessionOwner && seq === searchRequestSeq.current)
++        setError(error instanceof Error ? error.message : String(error))
++    } finally {
++      if (currentSession.current === sessionOwner && inputPending.current === revision) {
++        inputPending.current = null
++        if (draft.current.acknowledged !== revision) setState(prev => ({ ...prev,
++          root: { ...prev.root, props: { ...prev.root.props, isLoading: false } } }))
+       }
+-
+-      if (result.mode === 'no-view') {
+-        console.log('[RuntimeView] Search returned no-view result')
+-        setState((prev) => ({ ...prev, message: result.message }))
+-        return
+-      }
+-
+-      console.log(
+-        `[RuntimeView] Search returned view with root type="${result.root.type}", ${result.root.children?.length ?? 0} children`
+-      )
+-      setState({
+-        refreshMs: result.refreshMs,
+-        generation: result.generation,
+-        sessionId: result.sessionId,
+-        extensionId: result.extensionId,
+-        commandName: result.commandName,
+-        title: result.title,
+-        root: result.root,
+-        actions: result.actions,
+-        message: result.message,
+-      })
+-    },
+-    [state.sessionId, sessionOwner]
+-  )
+-
+-  const handleLoadMore = useCallback(async () => {
+-    const result = await window.tezbar.extensionLoadMore({ sessionId: state.sessionId })
++    }
++  }
++  const handleSearchTextChanged = (searchText: string): Promise<void> => sendInput({ query: searchText })
++  const handleLoadMore = (): Promise<void> => readOnly(true)
++  const handleInvokeAction = async (actionId: string, formValues?: Record<string, unknown>): Promise<void> => {
+     if (currentSession.current !== sessionOwner) return
+-    if (result.ok && result.mode === 'unchanged') return
+-    if (!result.ok) {
+-      setError(result.message)
++    if (formValues && Object.hasOwn(formValues, 'value') && latestState.current.root.props?.__clientInputAction) {
++      const accessory = latestState.current.root.props?.searchBarAccessory as ExtensionRuntimeNode | undefined
++      if (accessory?.props?.actionId !== actionId) return
++      await sendInput({ choice: formValues.value })
+       return
+     }
+-    if (result.mode === 'no-view') {
+-      setState((prev) => ({ ...prev, message: result.message }))
+-      return
+-    }
+-    setState({
+-      refreshMs: result.refreshMs,
+-      generation: result.generation,
+-      sessionId: result.sessionId,
+-      extensionId: result.extensionId,
+-      commandName: result.commandName,
+-      title: result.title,
+-      root: result.root,
+-      actions: result.actions,
+-      message: result.message,
+-    })
+-  }, [state.sessionId, sessionOwner])
++    if (inputPending.current !== null || draft.current.acknowledged !== draft.current.revision) return
++    const invokedAction = latestState.current.actions.find(action => action.id === actionId)
++    if (!invokedAction) return
++    const seq = ++searchRequestSeq.current
++    setError(null)
++    try {
++      const result = await window.tezbar.extensionInvokeAction({ sessionId: seed.sessionId, actionId, formValues })
++      if (currentSession.current !== sessionOwner || seq !== searchRequestSeq.current) return
++      if (!result.ok) { setError(result.message); showActionNotice(`Failed · ${result.message}`, isFormSurface); return }
++      if (result.mode === 'unchanged') return
++      if (result.mode === 'view' && !acceptView(result)) return
++      const notice = effectNotice(result.effects)
++      const message = notice?.message || result.message?.trim() || fallbackActionNotice(invokedAction)
++      if (message) showActionNotice(message, isFormSurface)
++    } catch (error) {
++      if (currentSession.current === sessionOwner && seq === searchRequestSeq.current)
++        setError(error instanceof Error ? error.message : String(error))
++    }
++  }
+ 
+   return (
+     <div
+@@ -609,12 +594,20 @@
+             root={state.root}
+             onBack={onBack}
+             onSaved={(next) => {
++              currentSession.current = `${next.sessionId}:${next.generation ?? ''}`
++              searchRequestSeq.current += 1
++              inputPending.current = null
++              draft.current = { revision: 0, acknowledged: 0, query: next.root.props?.searchText,
++                choice: next.root.props?.__clientChoice }
++              setSeed(next)
++              setActionNotice(null)
+               setState(fromRunResult(next))
+               setError(null)
+             }}
+           />
+         ) : (
+           <ExtensionRuntimeSurface
++            key={sessionOwner}
+             sessionId={state.sessionId}
+             title={state.title}
+             extensionId={state.extensionId}
+@@ -625,58 +618,7 @@
+             onBack={onBack}
+             onSearchTextChanged={handleSearchTextChanged}
+             onLoadMore={handleLoadMore}
+-            onInvokeAction={async (actionId, formValues) => {
+-              setError(null)
+-              const invokedAction = state.actions.find((action) => action.id === actionId)
+-              if (isFormSurface && invokedAction?.kind === 'submit-form') {
+-                showActionNotice(`Working · ${invokedAction.title}…`, true)
+-              }
+-              const result = await window.tezbar.extensionInvokeAction({
+-                sessionId: state.sessionId,
+-                actionId,
+-                formValues,
+-              })
+-
+-              if (currentSession.current !== sessionOwner) return
+-              if (!result.ok) {
+-                setError(result.message)
+-                showActionFailure(result.message)
+-                return
+-              }
+-
+-              const effectNoticeValue = effectNotice(result.effects)
+-              const messageNotice = result.message?.trim()
+-                ? {
+-                    message: result.message.trim(),
+-                    tone: /could not|failed|failure|error/i.test(result.message)
+-                      ? ('error' as const)
+-                      : ('success' as const),
+-                  }
+-                : null
+-              const fallbackNotice = fallbackActionNotice(invokedAction)
+-              const notice =
+-                effectNoticeValue ||
+-                messageNotice ||
+-                (fallbackNotice ? { message: fallbackNotice, tone: 'success' as const } : null)
+-              if (notice) showActionNotice(notice.message, isFormSurface)
+-
+-              if (result.mode === 'no-view') {
+-                setState((prev) => ({ ...prev, message: undefined }))
+-                return
+-              }
+-
+-              setState({
+-                refreshMs: result.refreshMs,
+-                generation: result.generation,
+-                sessionId: result.sessionId,
+-                extensionId: result.extensionId,
+-                commandName: result.commandName,
+-                title: result.title,
+-                root: result.root,
+-                actions: result.actions,
+-                message: undefined,
+-              })
+-            }}
++            onInvokeAction={handleInvokeAction}
+           />
+         )}
+       </div>
+@@ -684,6 +626,7 @@
+       {error ? (
+         <div className="glass-card shrink-0 px-3 py-2">
+           <Message tone="error">{error}</Message>
++          <Button variant="quiet" onClick={() => void readOnly()}>Refresh</Button>
+         </div>
+       ) : null}
+ 
+--- a/src/renderer/src/raycast-api/list-runtime.tsx
++++ b/src/renderer/src/raycast-api/list-runtime.tsx
+@@ -544,13 +544,15 @@
+   }, [])
+ 
+   useEffect(() => {
+-    if (typeof root.props?.searchText === 'string') {
++    if (!hasServerSearch && typeof root.props?.searchText === 'string') {
+       setQuery(root.props.searchText)
+     }
+-  }, [root.props?.searchText])
++  }, [root.props?.searchText, hasServerSearch])
+ 
+   useEffect(() => {
++    const restored = (root.props?.searchBarAccessory as ExtensionRuntimeNode | undefined)?.props?.value
+     setAccessoryValue((current) => {
++      if (typeof restored === 'string' && searchAccessory?.options.some((option) => option.value === restored)) return restored
+       if (!searchAccessory || searchAccessory.options.length === 0) return ''
+       return searchAccessory.options.some((option) => option.value === current)
+         ? current
+@@ -559,7 +561,7 @@
+   }, [searchAccessory])
+ 
+   useEffect(() => {
+-    if (query === lastSentQuery.current) return
++    if (hasServerSearch || query === lastSentQuery.current) return
+     if (debounceTimer.current) {
+       clearTimeout(debounceTimer.current)
+     }
+@@ -572,7 +574,7 @@
+         clearTimeout(debounceTimer.current)
+       }
+     }
+-  }, [query, onSearchTextChanged])
++  }, [query, onSearchTextChanged, hasServerSearch])
+ 
+   const colorConversionRows = useMemo<ListRow[]>(() => {
+     if (!isColorConversionSurface) return []
+@@ -680,6 +682,7 @@
+     if (!candidate) return null
+     return {
+       title: typeof candidate.props?.title === 'string' ? candidate.props.title : 'No results',
++      icon: parseRowIcon(candidate.props?.icon),
+       description:
+         typeof candidate.props?.description === 'string' ? candidate.props.description : '',
+     }
+@@ -693,7 +696,9 @@
+     ? hasQuery
+       ? 'No color formats'
+       : 'Enter a color'
+-    : hasQuery
++    : hasServerSearch
++      ? (root.props?.isLoading === true ? 'Loading…' : emptyView?.title || 'No results')
++      : hasQuery
+       ? 'No matching applications'
+       : emptyView?.title || 'No list items'
+   const emptyDescription = isColorConversionSurface
+@@ -720,8 +725,13 @@
+                 type="text"
+                 value={query}
+                 onChange={(event) => {
+-                  setQuery(event.target.value)
++                  const next = event.target.value
++                  setQuery(next)
+                   setSelected(0)
++                  if (hasServerSearch) {
++                    lastSentQuery.current = next
++                    void onSearchTextChanged(next)
++                  }
+                 }}
+                 placeholder={searchBarPlaceholder}
+                 className="h-8 w-full rounded-tezbar-chip border border-white/10 bg-white/[0.04] px-2.5 text-[12px] text-ink-1 placeholder:text-ink-4 outline-none transition focus:border-white/20 focus:bg-white/[0.06]"
+@@ -777,6 +787,7 @@
+         {filteredRows.length === 0 ? (
+           <div className="flex h-full items-center justify-center text-center">
+             <div>
++              {emptyView?.icon ? <RowIcon row={{ id: 'empty', title: emptyTitle, icon: emptyView.icon }} /> : null}
+               <p className="text-[13px] text-ink-2">
+                 {emptyTitle}
+               </p>
+--- a/src/shared/extensionRuntime.ts
++++ b/src/shared/extensionRuntime.ts
+@@ -116,6 +116,7 @@
+ }
+ 
+ export type ExtensionInvokeActionResult =
++  | { ok: true; mode: 'unchanged' }
+   | {
+       ok: true
+       mode: 'no-view'
+@@ -167,6 +168,7 @@
+ }
+ 
+ export type ExtensionSearchTextChangedResult =
++  | { ok: true; mode: 'unchanged' }
+   | {
+       ok: true
+       mode: 'no-view'

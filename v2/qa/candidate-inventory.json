@@ -1,0 +1,4420 @@
+{
+  "scope": "All Git-visible README.md and v2 candidates except this inventory; worktree bytes only, not staged blobs. Parent must rehash staged blobs before commit.",
+  "files": {
+    "README.md": {
+      "sha256": "10b75036a62221828df13dd40a4fb419bdf14ddeb615d1f350212553eb8c8d82",
+      "mode": "0o644",
+      "bytes": 1765
+    },
+    "v2/.gitignore": {
+      "sha256": "12d20d2d63b6a0450e825c434b4f21488003feacd13f2949c97f440916bfd3fe",
+      "mode": "0o644",
+      "bytes": 16
+    },
+    "v2/.srl": {
+      "sha256": "675d7febcaf93cec1a827dc679f8157d21bd8a1d4ae3a1c024368a3f46de55e5",
+      "mode": "0o644",
+      "bytes": 17
+    },
+    "v2/Cargo.lock": {
+      "sha256": "8248ed286660fa5fdc11b1e86f995f9a046094ea87ef43726622f68df250a86e",
+      "mode": "0o644",
+      "bytes": 37884
+    },
+    "v2/Cargo.toml": {
+      "sha256": "09c1a9bc449fbc76a065e54263f2adb880a149c7877db04be26a7395b7d19eec",
+      "mode": "0o644",
+      "bytes": 706
+    },
+    "v2/LICENSE": {
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/NOTICE": {
+      "sha256": "fa383054a1c7c654121ef850c1053e610a21a1c8b74005af119ea75a3ddfb51a",
+      "mode": "0o644",
+      "bytes": 1300
+    },
+    "v2/README.md": {
+      "sha256": "178d81906798e285a11903cbc182ff9879bd300561ed22059248c7984bf9501d",
+      "mode": "0o644",
+      "bytes": 10202
+    },
+    "v2/VALIDATION.md": {
+      "sha256": "0fc6b95d45c68f70741c167ff2101dd2c19c0713e580ecd77c31a24caf8925d7",
+      "mode": "0o644",
+      "bytes": 10697
+    },
+    "v2/assets/extension_icon.png": {
+      "sha256": "0e7710cd7aa7cb4530f767115623f7064a997365344eb9fd257e43c898befaa7",
+      "mode": "0o644",
+      "bytes": 28354
+    },
+    "v2/extension.json": {
+      "sha256": "d0fd362a04da454cf359fbc39dca6a3483e4cf9532afa7399971fec6651f149e",
+      "mode": "0o644",
+      "bytes": 5455
+    },
+    "v2/integration/renderer-ownership.patch": {
+      "sha256": "2a12b501f0b398ac265959cb3f0cdd2212a76c40a95dd6310e5529d9fbf42c94",
+      "mode": "0o644",
+      "bytes": 20898
+    },
+    "v2/notices/cargo/aho-corasick-1.1.5/COPYING": {
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "mode": "0o644",
+      "bytes": 126
+    },
+    "v2/notices/cargo/aho-corasick-1.1.5/LICENSE-MIT": {
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/notices/cargo/aho-corasick-1.1.5/UNLICENSE": {
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "mode": "0o644",
+      "bytes": 1211
+    },
+    "v2/notices/cargo/atomic-waker-1.1.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/atomic-waker-1.1.2/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/atomic-waker-1.1.2/LICENSE-THIRD-PARTY": {
+      "sha256": "6226d0632e2e1a80c23597e964da9812ae193c535fe058154afb034e94167aa5",
+      "mode": "0o644",
+      "bytes": 1849
+    },
+    "v2/notices/cargo/autocfg-1.5.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/autocfg-1.5.1/LICENSE-MIT": {
+      "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac",
+      "mode": "0o644",
+      "bytes": 1054
+    },
+    "v2/notices/cargo/base64-0.22.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/base64-0.22.1/LICENSE-MIT": {
+      "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/notices/cargo/base64-0.23.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/base64-0.23.1/LICENSE-MIT": {
+      "sha256": "ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c",
+      "mode": "0o644",
+      "bytes": 1093
+    },
+    "v2/notices/cargo/bitflags-2.13.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/bitflags-2.13.2/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/bumpalo-3.20.3/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/bumpalo-3.20.3/LICENSE-MIT": {
+      "sha256": "65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee",
+      "mode": "0o644",
+      "bytes": 1059
+    },
+    "v2/notices/cargo/bytes-1.12.1/LICENSE": {
+      "sha256": "45f522cacecb1023856e46df79ca625dfc550c94910078bd8aec6e02880b3d42",
+      "mode": "0o644",
+      "bytes": 1055
+    },
+    "v2/notices/cargo/cc-1.10.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/cc-1.10.0/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/cfg-if-1.0.5/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/cfg-if-1.0.5/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/cfg_aliases-0.2.2/LICENSE": {
+      "sha256": "31b94860253d8ec7b4529f51901044d3b459d6292d996504a36b1bae3a36a812",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/notices/cargo/cfg_aliases-0.2.2/NOTICES.md": {
+      "sha256": "1e2b7ade3fb228130408b9990cae6a7618eb314c75aa0b164bfe485d9d9756ee",
+      "mode": "0o644",
+      "bytes": 1472
+    },
+    "v2/notices/cargo/chacha20-0.10.2/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/notices/cargo/chacha20-0.10.2/LICENSE-MIT": {
+      "sha256": "b8c6939380a400f53e11923d50fcc4dd2fa1ba8339fd9d04cda38a0251b6c9b0",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/notices/cargo/cpufeatures-0.3.1/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/notices/cargo/cpufeatures-0.3.1/LICENSE-MIT": {
+      "sha256": "73b9dc2e79c7308998dd30296e073aefaefb944a68fb89aa412c23c0edcabcaa",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/notices/cargo/displaydoc-0.2.7/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/displaydoc-0.2.7/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/equivalent-1.0.3/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/equivalent-1.0.3/LICENSE-MIT": {
+      "sha256": "7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349",
+      "mode": "0o644",
+      "bytes": 1049
+    },
+    "v2/notices/cargo/errno-0.3.14/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/errno-0.3.14/LICENSE-MIT": {
+      "sha256": "8764a597675778ddfd4e25f81b08a05dbcf089ac05662df7613fe67f150e3aa2",
+      "mode": "0o644",
+      "bytes": 1054
+    },
+    "v2/notices/cargo/fastrand-2.5.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/fastrand-2.5.0/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/find-msvc-tools-0.1.15/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/find-msvc-tools-0.1.15/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/foldhash-0.2.0/LICENSE": {
+      "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744",
+      "mode": "0o644",
+      "bytes": 856
+    },
+    "v2/notices/cargo/form_urlencoded-1.2.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/form_urlencoded-1.2.2/LICENSE-MIT": {
+      "sha256": "20c7855c364d57ea4c97889a5e8d98470a9952dade37bd9248b9a54431670e5e",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/notices/cargo/futures-channel-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/notices/cargo/futures-channel-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/notices/cargo/futures-core-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/notices/cargo/futures-core-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/notices/cargo/futures-io-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/notices/cargo/futures-io-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/notices/cargo/futures-macro-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/notices/cargo/futures-macro-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/notices/cargo/futures-sink-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/notices/cargo/futures-sink-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/notices/cargo/futures-task-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/notices/cargo/futures-task-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/notices/cargo/futures-util-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/notices/cargo/futures-util-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/notices/cargo/getrandom-0.2.17/LICENSE-APACHE": {
+      "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/notices/cargo/getrandom-0.2.17/LICENSE-MIT": {
+      "sha256": "42fa16951ce7f24b5a467a40e5b449a1d41e662f97ca779864f053f39e097737",
+      "mode": "0o644",
+      "bytes": 1130
+    },
+    "v2/notices/cargo/getrandom-0.4.3/LICENSE-APACHE": {
+      "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/notices/cargo/getrandom-0.4.3/LICENSE-MIT": {
+      "sha256": "523a42c25d245dde9c015f882cec7f4555aad883382a6cf19b4b7d9b2cd5419b",
+      "mode": "0o644",
+      "bytes": 1130
+    },
+    "v2/notices/cargo/hashbrown-0.17.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/hashbrown-0.17.1/LICENSE-MIT": {
+      "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+      "mode": "0o644",
+      "bytes": 1060
+    },
+    "v2/notices/cargo/http-1.5.0/LICENSE-APACHE": {
+      "sha256": "8bb1b50b0e5c9399ae33bd35fab2769010fa6c14e8860c729a52295d84896b7a",
+      "mode": "0o644",
+      "bytes": 10835
+    },
+    "v2/notices/cargo/http-1.5.0/LICENSE-MIT": {
+      "sha256": "dc91f8200e4b2a1f9261035d4c18c33c246911a6c0f7b543d75347e61b249cff",
+      "mode": "0o644",
+      "bytes": 1059
+    },
+    "v2/notices/cargo/http-body-1.1.0/LICENSE": {
+      "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab",
+      "mode": "0o644",
+      "bytes": 1083
+    },
+    "v2/notices/cargo/http-body-util-0.1.5/LICENSE": {
+      "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab",
+      "mode": "0o644",
+      "bytes": 1083
+    },
+    "v2/notices/cargo/httparse-1.10.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/httparse-1.10.1/LICENSE-MIT": {
+      "sha256": "391a5396cec6230bfabd4ef4eb2350eb895bc5efce377a2218f5702ed020d3e3",
+      "mode": "0o644",
+      "bytes": 1063
+    },
+    "v2/notices/cargo/hyper-1.12.0/LICENSE": {
+      "sha256": "2d01890414494742ba4a509fcec8efa40f6d8be22cbd72be7cff08d6fda4ec89",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/hyper-rustls-0.27.10/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/hyper-rustls-0.27.10/LICENSE-ISC": {
+      "sha256": "7cfafc877eccc46c0e346ccbaa5c51bb6b894d2b818e617d970211e232785ad4",
+      "mode": "0o644",
+      "bytes": 775
+    },
+    "v2/notices/cargo/hyper-rustls-0.27.10/LICENSE-MIT": {
+      "sha256": "709e3175b4212f7b13aa93971c9f62ff8c69ec45ad8c6532a7e0c41d7a7d6f8c",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/notices/cargo/hyper-util-0.1.21/LICENSE": {
+      "sha256": "9e0a97848ea543aef745c98e84fde696a9a3e0735538f6daefdd3cb1942effc1",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/icu_collections-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/icu_locale_core-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/icu_normalizer-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/icu_normalizer_data-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/icu_properties-2.1.2/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/icu_properties_data-2.1.2/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/icu_provider-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/idna-1.1.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/idna-1.1.0/LICENSE-MIT": {
+      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/notices/cargo/idna_adapter-1.2.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/idna_adapter-1.2.1/LICENSE-MIT": {
+      "sha256": "8b43ce8accd61e9d370b5ca9e9c4f953279b5c239926c62315b40e24df51b726",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/indexmap-2.14.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/indexmap-2.14.2/LICENSE-MIT": {
+      "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055",
+      "mode": "0o644",
+      "bytes": 1049
+    },
+    "v2/notices/cargo/ipnet-2.12.2/LICENSE-APACHE": {
+      "sha256": "87d9feb9238c6bd8e0024fc4733b06cff036f89f36d93b7df1c8a0549bbb7a5b",
+      "mode": "0o644",
+      "bytes": 11352
+    },
+    "v2/notices/cargo/ipnet-2.12.2/LICENSE-MIT": {
+      "sha256": "47dc9ff29128ddfb4d6a0435383c9f89120bc374dbcc1dd00b933a0b28aa7865",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/itoa-1.0.18/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/itoa-1.0.18/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/js-sys-0.3.106/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/js-sys-0.3.106/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/libc-0.2.191/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/libc-0.2.191/LICENSE-MIT": {
+      "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e",
+      "mode": "0o644",
+      "bytes": 1066
+    },
+    "v2/notices/cargo/linux-raw-sys-0.12.1/COPYRIGHT": {
+      "sha256": "3290ae0fbc9ddb77d2239121d710f0bb9d31b3b4744e6d97fe01e652b4c1870b",
+      "mode": "0o644",
+      "bytes": 881
+    },
+    "v2/notices/cargo/linux-raw-sys-0.12.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/linux-raw-sys-0.12.1/LICENSE-Apache-2.0_WITH_LLVM-exception": {
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "mode": "0o644",
+      "bytes": 12243
+    },
+    "v2/notices/cargo/linux-raw-sys-0.12.1/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/litemap-0.8.3/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/log-0.4.34/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/log-0.4.34/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/lru-slab-0.1.3/LICENSE-APACHE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/notices/cargo/lru-slab-0.1.3/LICENSE-MIT": {
+      "sha256": "1466d9b4f3a59bb8997fc8d5fa977ce3f6a24bb2358793c09bfdf007039f6486",
+      "mode": "0o644",
+      "bytes": 1067
+    },
+    "v2/notices/cargo/lru-slab-0.1.3/LICENSE-ZLIB": {
+      "sha256": "09785877275ffada6c371b652a30e95c26b435126fc0fc62f1bc2d72171f80a4",
+      "mode": "0o644",
+      "bytes": 864
+    },
+    "v2/notices/cargo/memchr-2.8.3/COPYING": {
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "mode": "0o644",
+      "bytes": 126
+    },
+    "v2/notices/cargo/memchr-2.8.3/LICENSE-MIT": {
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/notices/cargo/memchr-2.8.3/UNLICENSE": {
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "mode": "0o644",
+      "bytes": 1211
+    },
+    "v2/notices/cargo/mio-1.2.4/LICENSE": {
+      "sha256": "07919255c7e04793d8ea760d6c2ce32d19f9ff02bdbdde3ce90b1e1880929a9b",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/notices/cargo/num-bigint-0.4.8/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/num-bigint-0.4.8/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/num-integer-0.1.47/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/num-integer-0.1.47/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/num-traits-0.2.19/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/num-traits-0.2.19/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/once_cell-1.21.4/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/once_cell-1.21.4/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/percent-encoding-2.3.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/percent-encoding-2.3.2/LICENSE-MIT": {
+      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/notices/cargo/pin-project-lite-0.2.17/LICENSE-APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/notices/cargo/pin-project-lite-0.2.17/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/potential_utf-0.1.6/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/proc-macro2-1.0.107/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/proc-macro2-1.0.107/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/quinn-0.11.12/LICENSE-APACHE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    "v2/notices/cargo/quinn-0.11.12/LICENSE-MIT": {
+      "sha256": "4b2d0aca6789fa39e03d6738e869ea0988cceba210ca34ebb59c15c463e93a04",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/notices/cargo/quinn-proto-0.11.19/LICENSE-APACHE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    "v2/notices/cargo/quinn-proto-0.11.19/LICENSE-MIT": {
+      "sha256": "4b2d0aca6789fa39e03d6738e869ea0988cceba210ca34ebb59c15c463e93a04",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/notices/cargo/quinn-udp-0.5.16/LICENSE-APACHE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    "v2/notices/cargo/quinn-udp-0.5.16/LICENSE-MIT": {
+      "sha256": "4b2d0aca6789fa39e03d6738e869ea0988cceba210ca34ebb59c15c463e93a04",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/notices/cargo/quote-1.0.47/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/quote-1.0.47/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/r-efi-6.0.0/AUTHORS": {
+      "sha256": "d027e91dbc9cdbb2f1190068e498bd6b61cff022b6a032b191021ba658d96111",
+      "mode": "0o644",
+      "bytes": 3733
+    },
+    "v2/notices/cargo/rand-0.10.3/COPYRIGHT": {
+      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5",
+      "mode": "0o644",
+      "bytes": 569
+    },
+    "v2/notices/cargo/rand-0.10.3/LICENSE-APACHE": {
+      "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab",
+      "mode": "0o644",
+      "bytes": 9724
+    },
+    "v2/notices/cargo/rand-0.10.3/LICENSE-MIT": {
+      "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/notices/cargo/rand_core-0.10.1/COPYRIGHT": {
+      "sha256": "92b81db30f7ab6d693e0af5661a40d273ca1947e891123ed823924192c10cbc7",
+      "mode": "0o644",
+      "bytes": 478
+    },
+    "v2/notices/cargo/rand_core-0.10.1/LICENSE-APACHE": {
+      "sha256": "6df43f6f4b5d4587f3d8d71e45532c688fd168afa5fe89d571cb32fa09c4ef51",
+      "mode": "0o644",
+      "bytes": 10282
+    },
+    "v2/notices/cargo/rand_core-0.10.1/LICENSE-MIT": {
+      "sha256": "8b6e9feec03e7c9a5facb26855cecd31662bf989b636bcfe79521bdf8ac863f0",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/notices/cargo/rand_pcg-0.10.2/COPYRIGHT": {
+      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5",
+      "mode": "0o644",
+      "bytes": 569
+    },
+    "v2/notices/cargo/rand_pcg-0.10.2/LICENSE-APACHE": {
+      "sha256": "6df43f6f4b5d4587f3d8d71e45532c688fd168afa5fe89d571cb32fa09c4ef51",
+      "mode": "0o644",
+      "bytes": 10282
+    },
+    "v2/notices/cargo/rand_pcg-0.10.2/LICENSE-MIT": {
+      "sha256": "2234e3cefee876aeb686ad89e978bdb07bf118a1186ab1cf161bcdf69d4b4f57",
+      "mode": "0o644",
+      "bytes": 1139
+    },
+    "v2/notices/cargo/regex-1.13.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/regex-1.13.1/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/regex-automata-0.4.18/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/regex-automata-0.4.18/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/regex-syntax-0.8.11/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/regex-syntax-0.8.11/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/notices/cargo/regex-syntax-0.8.11/src/unicode_tables/LICENSE-UNICODE": {
+      "sha256": "74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3",
+      "mode": "0o644",
+      "bytes": 2847
+    },
+    "v2/notices/cargo/reqwest-0.12.28/LICENSE-APACHE": {
+      "sha256": "751963a8b88c0e3a9f27e98933079fbcf09b9998b2c13ac49c2e4d58444520d6",
+      "mode": "0o644",
+      "bytes": 10833
+    },
+    "v2/notices/cargo/reqwest-0.12.28/LICENSE-MIT": {
+      "sha256": "47d4e1803702728e03d30f8a848ae2249ba274bbd9f8443e803f7924d83cd371",
+      "mode": "0o644",
+      "bytes": 1063
+    },
+    "v2/notices/cargo/ring-0.17.14/LICENSE": {
+      "sha256": "b3d734001a94efff3579978d953391aa7115f877657d25eb54037a43875d078a",
+      "mode": "0o644",
+      "bytes": 499
+    },
+    "v2/notices/cargo/ring-0.17.14/LICENSE-BoringSSL": {
+      "sha256": "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d",
+      "mode": "0o644",
+      "bytes": 14870
+    },
+    "v2/notices/cargo/ring-0.17.14/LICENSE-other-bits": {
+      "sha256": "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f",
+      "mode": "0o644",
+      "bytes": 731
+    },
+    "v2/notices/cargo/ring-0.17.14/src/polyfill/once_cell/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/ring-0.17.14/src/polyfill/once_cell/LICENSE-MIT": {
+      "sha256": "6ee2ed6c77710de911761acd5fc1ad1da00f476beb1a7ef27e78c2d1858deafc",
+      "mode": "0o644",
+      "bytes": 1022
+    },
+    "v2/notices/cargo/ring-0.17.14/third_party/fiat/LICENSE": {
+      "sha256": "9eacbcb81be660840c714a560a9d65ba07913db98dd4baf969f78dd499fdd60f",
+      "mode": "0o644",
+      "bytes": 638
+    },
+    "v2/notices/cargo/rustc-hash-2.1.3/LICENSE-APACHE": {
+      "sha256": "95bd3988beee069fa2848f648dab43cc6e0b2add2ad6bcb17360caf749802bcc",
+      "mode": "0o644",
+      "bytes": 9722
+    },
+    "v2/notices/cargo/rustc-hash-2.1.3/LICENSE-MIT": {
+      "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652",
+      "mode": "0o644",
+      "bytes": 1022
+    },
+    "v2/notices/cargo/rustix-1.1.6/COPYRIGHT": {
+      "sha256": "377c2e7c53250cc5905c0b0532d35973392af16ffb9596a41d99d202cf3617c9",
+      "mode": "0o644",
+      "bytes": 853
+    },
+    "v2/notices/cargo/rustix-1.1.6/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/rustix-1.1.6/LICENSE-Apache-2.0_WITH_LLVM-exception": {
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "mode": "0o644",
+      "bytes": 12243
+    },
+    "v2/notices/cargo/rustix-1.1.6/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/rustls-0.23.46/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/rustls-0.23.46/LICENSE-ISC": {
+      "sha256": "7cfafc877eccc46c0e346ccbaa5c51bb6b894d2b818e617d970211e232785ad4",
+      "mode": "0o644",
+      "bytes": 775
+    },
+    "v2/notices/cargo/rustls-0.23.46/LICENSE-MIT": {
+      "sha256": "709e3175b4212f7b13aa93971c9f62ff8c69ec45ad8c6532a7e0c41d7a7d6f8c",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/notices/cargo/rustls-pki-types-1.15.1/LICENSE-APACHE": {
+      "sha256": "45fd05c4865e7c350b98ad7ac50e1b15462d49af4a91e9b0c9dd933dc9a69742",
+      "mode": "0o644",
+      "bytes": 10835
+    },
+    "v2/notices/cargo/rustls-pki-types-1.15.1/LICENSE-MIT": {
+      "sha256": "9117d922e667125508dde62b02c1f57ed22f5ad21eb536aa2e2d99e1c796e639",
+      "mode": "0o644",
+      "bytes": 1080
+    },
+    "v2/notices/cargo/rustls-webpki-0.103.16/LICENSE": {
+      "sha256": "5b698ca13897be3afdb7174256fa1574f8c6892b8bea1a66dd6469d3fe27885a",
+      "mode": "0o644",
+      "bytes": 916
+    },
+    "v2/notices/cargo/rustversion-1.0.23/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/rustversion-1.0.23/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/ryu-1.0.23/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/ryu-1.0.23/LICENSE-BOOST": {
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "mode": "0o644",
+      "bytes": 1338
+    },
+    "v2/notices/cargo/ryu-js-1.0.3/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/ryu-js-1.0.3/LICENSE-BOOST": {
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "mode": "0o644",
+      "bytes": 1338
+    },
+    "v2/notices/cargo/serde-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/serde-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/serde_core-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/serde_core-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/serde_derive-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/serde_derive-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/serde_json-1.0.154/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/serde_json-1.0.154/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/serde_urlencoded-0.7.1/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/serde_urlencoded-0.7.1/LICENSE-MIT": {
+      "sha256": "b9eb266294324f672cbe945fe8f2e32f85024f0d61a1a7d14382cdde0ac44769",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/notices/cargo/shlex-2.0.1/LICENSE-APACHE": {
+      "sha256": "553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583",
+      "mode": "0o644",
+      "bytes": 566
+    },
+    "v2/notices/cargo/shlex-2.0.1/LICENSE-MIT": {
+      "sha256": "4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1",
+      "mode": "0o644",
+      "bytes": 1092
+    },
+    "v2/notices/cargo/signal-hook-registry-1.4.8/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/signal-hook-registry-1.4.8/LICENSE-MIT": {
+      "sha256": "503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c",
+      "mode": "0o644",
+      "bytes": 1068
+    },
+    "v2/notices/cargo/slab-0.4.12/LICENSE": {
+      "sha256": "8ce0830173fdac609dfb4ea603fdc002c2f4af0dc9b1a005653f5da9cf534b18",
+      "mode": "0o644",
+      "bytes": 1055
+    },
+    "v2/notices/cargo/smallvec-1.16.4/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/smallvec-1.16.4/LICENSE-MIT": {
+      "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/notices/cargo/socket2-0.6.5/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/socket2-0.6.5/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/stable_deref_trait-1.2.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/stable_deref_trait-1.2.1/LICENSE-MIT": {
+      "sha256": "5e05b024f653a5ce199e77cbbbd42fb5553562ec714b819421ed0c3e552a75d7",
+      "mode": "0o644",
+      "bytes": 1056
+    },
+    "v2/notices/cargo/subtle-2.6.1/LICENSE": {
+      "sha256": "d1fc1bc0d155df60b2e7705b6b2ae02a05c96f948e1cec6e2fb86360b09f346b",
+      "mode": "0o644",
+      "bytes": 1582
+    },
+    "v2/notices/cargo/syn-3.0.9/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/syn-3.0.9/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/sync_wrapper-1.0.2/LICENSE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/notices/cargo/synstructure-0.14.0/LICENSE": {
+      "sha256": "219920e865eee70b7dcfc948a86b099e7f4fe2de01bcca2ca9a20c0a033f2b59",
+      "mode": "0o644",
+      "bytes": 1052
+    },
+    "v2/notices/cargo/tempfile-3.27.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/tempfile-3.27.0/LICENSE-MIT": {
+      "sha256": "8b427f5bc501764575e52ba4f9d95673cf8f6d80a86d0d06599852e1a9a20a36",
+      "mode": "0o644",
+      "bytes": 1056
+    },
+    "v2/notices/cargo/thiserror-2.0.21/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/thiserror-2.0.21/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/thiserror-impl-2.0.21/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/thiserror-impl-2.0.21/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/tinystr-0.8.5/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/tinyvec-1.13.3/LICENSE-APACHE.md": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/notices/cargo/tinyvec-1.13.3/LICENSE-MIT.md": {
+      "sha256": "fd80a26fbb3f644af1fa994134446702932968519797227e07a1368dea80f0bc",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/tinyvec-1.13.3/LICENSE-ZLIB.md": {
+      "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151",
+      "mode": "0o644",
+      "bytes": 851
+    },
+    "v2/notices/cargo/tokio-1.54.1/LICENSE": {
+      "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552",
+      "mode": "0o644",
+      "bytes": 1070
+    },
+    "v2/notices/cargo/tokio-macros-2.7.2/LICENSE": {
+      "sha256": "0b83dc40cba89b9922bb84b0a9c7d2768ce37c1d7e138b7424fd4549915778c9",
+      "mode": "0o644",
+      "bytes": 1102
+    },
+    "v2/notices/cargo/tokio-rustls-0.26.6/LICENSE-APACHE": {
+      "sha256": "cc117d90b498b32b11a886f279b359da16a73c3b01efbb2f5cc004b20262334e",
+      "mode": "0o644",
+      "bytes": 10832
+    },
+    "v2/notices/cargo/tokio-rustls-0.26.6/LICENSE-MIT": {
+      "sha256": "e20fa2b8e0a2565f24a792b94b4bf4b6c2b9d36f781d8a9516e218a036e6677a",
+      "mode": "0o644",
+      "bytes": 1056
+    },
+    "v2/notices/cargo/tokio-util-0.7.20/LICENSE": {
+      "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552",
+      "mode": "0o644",
+      "bytes": 1070
+    },
+    "v2/notices/cargo/tower-0.5.3/LICENSE": {
+      "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/tower-http-0.6.11/LICENSE": {
+      "sha256": "5049cf464977eff4b4fcfa7988d84e74116956a3eb9d5f1d451b3f828f945233",
+      "mode": "0o644",
+      "bytes": 1067
+    },
+    "v2/notices/cargo/tower-layer-0.3.3/LICENSE": {
+      "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/tower-service-0.3.3/LICENSE": {
+      "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/tracing-0.1.44/LICENSE": {
+      "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/tracing-core-0.1.36/LICENSE": {
+      "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/notices/cargo/tracing-core-0.1.36/src/spin/LICENSE": {
+      "sha256": "58545fed1565e42d687aecec6897d35c6d37ccb71479a137c0deb2203e125c79",
+      "mode": "0o644",
+      "bytes": 1085
+    },
+    "v2/notices/cargo/try-lock-0.2.5/LICENSE": {
+      "sha256": "c816a0749cdc6bf062a5111c159723de51b2bfac66a1dac2655abd9e6b1583eb",
+      "mode": "0o644",
+      "bytes": 1096
+    },
+    "v2/notices/cargo/unicode-ident-1.0.27/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/unicode-ident-1.0.27/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/unicode-ident-1.0.27/LICENSE-UNICODE": {
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1",
+      "mode": "0o644",
+      "bytes": 1995
+    },
+    "v2/notices/cargo/untrusted-0.9.0/LICENSE.txt": {
+      "sha256": "7abd9b6960dcf7d4d0a48606a5b71bfe37d472db68d70637f3a58a56785f1621",
+      "mode": "0o644",
+      "bytes": 769
+    },
+    "v2/notices/cargo/url-2.5.8/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/url-2.5.8/LICENSE-MIT": {
+      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/notices/cargo/utf8_iter-1.0.4/COPYRIGHT": {
+      "sha256": "c30152c94a6d75e021adbc52b3a52470366a46edb917e17deae3259251af244c",
+      "mode": "0o644",
+      "bytes": 1742
+    },
+    "v2/notices/cargo/utf8_iter-1.0.4/LICENSE-APACHE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/notices/cargo/utf8_iter-1.0.4/LICENSE-MIT": {
+      "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c",
+      "mode": "0o644",
+      "bytes": 1053
+    },
+    "v2/notices/cargo/uuid-1.23.3/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/uuid-1.23.3/LICENSE-MIT": {
+      "sha256": "436bc5a105d8e57dcd8778730f3754f7bf39c14d2f530e4cde4bd2d17a83ec3d",
+      "mode": "0o644",
+      "bytes": 1157
+    },
+    "v2/notices/cargo/want-0.3.2/LICENSE": {
+      "sha256": "a65f5d0a945d267751344c95665945b90c030ea107faf5c85d518929886187da",
+      "mode": "0o644",
+      "bytes": 1063
+    },
+    "v2/notices/cargo/wasi-0.11.1+wasi-snapshot-preview1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/wasi-0.11.1+wasi-snapshot-preview1/LICENSE-Apache-2.0_WITH_LLVM-exception": {
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "mode": "0o644",
+      "bytes": 12243
+    },
+    "v2/notices/cargo/wasi-0.11.1+wasi-snapshot-preview1/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/wasm-bindgen-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/wasm-bindgen-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/wasm-bindgen-futures-0.4.79/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/wasm-bindgen-futures-0.4.79/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/wasm-bindgen-macro-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/wasm-bindgen-macro-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/wasm-bindgen-macro-support-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/wasm-bindgen-macro-support-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/wasm-bindgen-shared-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/wasm-bindgen-shared-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/wasm-streams-0.4.2/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/notices/cargo/wasm-streams-0.4.2/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/cargo/web-sys-0.3.106/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/notices/cargo/web-sys-0.3.106/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/notices/cargo/web-time-1.1.0/LICENSE-APACHE": {
+      "sha256": "54a744942eb3fa63a74d8d359989ed6962c04f3f10ff20cfa08ff8aa7efbe4e6",
+      "mode": "0o644",
+      "bytes": 11338
+    },
+    "v2/notices/cargo/web-time-1.1.0/LICENSE-MIT": {
+      "sha256": "f428305bbf2e70fbd807af0f3c7ac1b7acfb95311640f451e9d2e48db6d7e96b",
+      "mode": "0o644",
+      "bytes": 1065
+    },
+    "v2/notices/cargo/webpki-roots-1.0.11/LICENSE": {
+      "sha256": "e271993808fec50ab29350b39539cdec611a9103f827e0aa26d61da70e2d33f8",
+      "mode": "0o644",
+      "bytes": 2371
+    },
+    "v2/notices/cargo/windows-link-0.2.1/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows-link-0.2.1/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows-sys-0.52.0/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows-sys-0.52.0/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows-sys-0.61.2/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows-sys-0.61.2/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows-targets-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows-targets-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_aarch64_gnullvm-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_aarch64_gnullvm-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_aarch64_msvc-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_aarch64_msvc-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_i686_gnu-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_i686_gnu-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_i686_gnullvm-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_i686_gnullvm-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_i686_msvc-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_i686_msvc-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_x86_64_gnu-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_x86_64_gnu-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_x86_64_gnullvm-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_x86_64_gnullvm-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/windows_x86_64_msvc-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/notices/cargo/windows_x86_64_msvc-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/notices/cargo/writeable-0.6.4/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/yoke-0.8.4/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/yoke-derive-0.8.4/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/zerofrom-0.1.8/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/zerofrom-derive-0.1.8/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/zeroize-1.9.1/LICENSE-APACHE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/notices/cargo/zeroize-1.9.1/LICENSE-MIT": {
+      "sha256": "8c7516d4b27b1e495be5e38b612298b63de48d05f49cdac94f70f3cd70f8864b",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/notices/cargo/zerotrie-0.2.5/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/zerovec-0.11.9/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/zerovec-derive-0.11.7/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/notices/cargo/zmij-1.0.23/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/notices/ip-toolkit-LICENSE": {
+      "sha256": "837309920e551a479495a2eae5e6e2bb651bee38be3072bb11d10cd9685b2deb",
+      "mode": "0o644",
+      "bytes": 1077
+    },
+    "v2/notices/raycast-LICENSE": {
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/notices/sdk-LICENSE": {
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "mode": "0o644",
+      "bytes": 10750
+    },
+    "v2/notices/sdk-NOTICE": {
+      "sha256": "aa04ab6115cfc2e2172b0613013611a59dc487c70f3e2dfbd2f135326d703c74",
+      "mode": "0o644",
+      "bytes": 235
+    },
+    "v2/notices/v1-LICENSE": {
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+      "mode": "0o644",
+      "bytes": 1087
+    },
+    "v2/qa/LICENSE-GAPS.md": {
+      "sha256": "91ae620f510f0e7865a86dd405c23eb575c1c87a3a59de48962e58e88c5d2e74",
+      "mode": "0o644",
+      "bytes": 8484
+    },
+    "v2/qa/audit.py": {
+      "sha256": "97bb5af2cb428546284a8d0ebbacab69384a8458eef31e117ad9538be6c4edff",
+      "mode": "0o644",
+      "bytes": 4734
+    },
+    "v2/qa/axios-fixture.cjs": {
+      "sha256": "c88e6b1eb91b6a04ce8b3f3717d1d478226f330f733f0c03816f53904e684179",
+      "mode": "0o644",
+      "bytes": 2032
+    },
+    "v2/qa/cargo-archive-audit.json": {
+      "sha256": "119afd8626b0992d9d8fb8402a12e08ce3fc44c966fe8585095ddfbeaf076e9c",
+      "mode": "0o644",
+      "bytes": 79385
+    },
+    "v2/qa/cargo-host-producer-archive-audit.json": {
+      "sha256": "f89ada22e2c731825658b2c18c0cb6b4b89e91baf9b6e618eb554deb36fe9a29",
+      "mode": "0o644",
+      "bytes": 26311
+    },
+    "v2/qa/cargo-tls-helper-archive-audit.json": {
+      "sha256": "23d8b5524fa8ab2165a8043e1568dc3eb321f3514e1971d005389c70b463cf5a",
+      "mode": "0o644",
+      "bytes": 83417
+    },
+    "v2/qa/corpus.py": {
+      "sha256": "ff56229a80bf5209fd9fda38223d3a59cb1e4a90a317da1bd07398dd1007bee3",
+      "mode": "0o644",
+      "bytes": 1935
+    },
+    "v2/qa/env.sh": {
+      "sha256": "bf670c9ed89b3cb054180288eeffaa7263dc0be41f778dd48a11b10bd6f239b9",
+      "mode": "0o755",
+      "bytes": 710
+    },
+    "v2/qa/fixtures/host/docs/EXTERNAL_RUST_EXTENSIONS.md": {
+      "sha256": "56da4ce632e1362ad56c380fa6d706a1f455ea44b67cd473b0b3eb216a9d5610",
+      "mode": "0o644",
+      "bytes": 7903
+    },
+    "v2/qa/fixtures/host/exports/normalizeActionTitle.ts": {
+      "sha256": "314607bfb9e9625a6bd590e2655de3d959b35c314efdf89bb58a3f231d1bae79",
+      "mode": "0o644",
+      "bytes": 641
+    },
+    "v2/qa/fixtures/host/exports/origins.json": {
+      "sha256": "569e3c8e268cca4e0b528a621c756ee2b94b06f92322c13a7efc3f1aa5216228",
+      "mode": "0o644",
+      "bytes": 635
+    },
+    "v2/qa/fixtures/host/exports/text_arg.rs": {
+      "sha256": "17cec36ef596d1ce45dcd35c13ec93d6204d255604210f1b4c75b1d8be43f94a",
+      "mode": "0o644",
+      "bytes": 190
+    },
+    "v2/qa/fixtures/host/schemas/extension-v3.schema.json": {
+      "sha256": "6f42f0316aa88097703496e828b11afcc7caecf8477fa7502df903c3ad2a8048",
+      "mode": "0o644",
+      "bytes": 13094
+    },
+    "v2/qa/fixtures/host/src-tauri/src/native_core/extensions/native.rs": {
+      "sha256": "f11d1f436fa5f9b045a7ac25f3516adb0efc6d4c12ce1f0f0c4768940fafe16f",
+      "mode": "0o644",
+      "bytes": 35308
+    },
+    "v2/qa/fixtures/host/src-tauri/src/native_core/extensions/process.rs": {
+      "sha256": "eb51da47a912c2a364eff16874b584ee0a2a4b571968ac17fd5056715a2c3d18",
+      "mode": "0o644",
+      "bytes": 28217
+    },
+    "v2/qa/fixtures/host/src-tauri/src/native_core/extensions/process_host.rs": {
+      "sha256": "daf45815d76762323c6c1320c88ed24dfe28160a60bb4974b8073e3f17a3b982",
+      "mode": "0o644",
+      "bytes": 38535
+    },
+    "v2/qa/fixtures/host/src-tauri/src/native_core/extensions/v2_runtime.rs": {
+      "sha256": "537aeb67c9a7ad052c348d6c4fe09b19027854d07e912a432d36bc14896fc392",
+      "mode": "0o644",
+      "bytes": 472
+    },
+    "v2/qa/fixtures/host/src-tauri/src/native_core/launcher/clipboard.rs": {
+      "sha256": "8af5b882e06c9025d09a71b46b2f36c3e2a41513cd44fd2d0f945c58c9aa8d7d",
+      "mode": "0o644",
+      "bytes": 33863
+    },
+    "v2/qa/fixtures/host/src-tauri/src/native_core/platform.rs": {
+      "sha256": "33e6b7ec5b305ee3ffb857985d0483e54891998ff2a51c10f12695b80a1953e6",
+      "mode": "0o644",
+      "bytes": 28872
+    },
+    "v2/qa/fixtures/host/src/renderer/ExtensionRuntimeView.tsx": {
+      "sha256": "c8378d1a1cc91cf622f81dc1bd88ed986ea2e9c396f7ff497e649171f573c5e8",
+      "mode": "0o644",
+      "bytes": 24466
+    },
+    "v2/qa/fixtures/host/src/renderer/extensionSessionRefresh.ts": {
+      "sha256": "e45b3a3d09ac52456ac48f6ecbd8e6e97512ce8306b3f876112223af2ba2ec63",
+      "mode": "0o644",
+      "bytes": 2432
+    },
+    "v2/qa/fixtures/host/src/renderer/src/raycast-api/action-runtime.tsx": {
+      "sha256": "6e7a41e3d1a7ee2028103683f08fb8ed20e4b2e5751e182afe9f8e189522a28b",
+      "mode": "0o644",
+      "bytes": 391
+    },
+    "v2/qa/fixtures/host/src/renderer/src/raycast-api/index.tsx": {
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+      "mode": "0o644",
+      "bytes": 7419
+    },
+    "v2/qa/fixtures/host/src/renderer/src/raycast-api/list-runtime.tsx": {
+      "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f",
+      "mode": "0o644",
+      "bytes": 32174
+    },
+    "v2/qa/fixtures/host/src/shared/extensionRuntime.ts": {
+      "sha256": "47a290032a9967e2dee5142030b4ef8cfc5237a79521aa535f8a12d8c16deda4",
+      "mode": "0o644",
+      "bytes": 4581
+    },
+    "v2/qa/fixtures/sdk/Cargo.toml": {
+      "sha256": "f3f6c5a49f92dced2ff7b8ea9c5942d826a8a6c3cdade67f62003ded86b506dd",
+      "mode": "0o644",
+      "bytes": 468
+    },
+    "v2/qa/fixtures/sdk/HOST_INTEGRATION.md": {
+      "sha256": "88e6ca0c1090bcdf5d5501583e52e3eb7b0a369f4fea17ce4b01616c2f69d9a8",
+      "mode": "0o644",
+      "bytes": 11829
+    },
+    "v2/qa/fixtures/sdk/LICENSE": {
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "mode": "0o644",
+      "bytes": 10750
+    },
+    "v2/qa/fixtures/sdk/NOTICE": {
+      "sha256": "aa04ab6115cfc2e2172b0613013611a59dc487c70f3e2dfbd2f135326d703c74",
+      "mode": "0o644",
+      "bytes": 235
+    },
+    "v2/qa/fixtures/sdk/PROTOCOL.md": {
+      "sha256": "0bc474c2e79e6e3f46ad2d577f83144ad69bd87cb17b74600a17178bcc257371",
+      "mode": "0o644",
+      "bytes": 11421
+    },
+    "v2/qa/fixtures/sdk/SDK_API.md": {
+      "sha256": "73945c65d763a82ee1bd64b2f30418f8aaec2e75966d71d7b774e7f7e40f098e",
+      "mode": "0o644",
+      "bytes": 11574
+    },
+    "v2/qa/fixtures/sdk/src/context.rs": {
+      "sha256": "9d8498bf3799690703c0a4e70fed2c9356850cc0c4e35370104fd09898c09efa",
+      "mode": "0o644",
+      "bytes": 15670
+    },
+    "v2/qa/fixtures/sdk/src/lib.rs": {
+      "sha256": "7ffb2da74cfcf91f428453cf90594baa79b21251b7df77756348e0acda79cd16",
+      "mode": "0o644",
+      "bytes": 1849
+    },
+    "v2/qa/fixtures/sdk/src/runner.rs": {
+      "sha256": "975350f717db0a3bf9cac11e9efd733719d2148544c2e38d82758c92a0a88053",
+      "mode": "0o644",
+      "bytes": 30927
+    },
+    "v2/qa/fixtures/sdk/src/stdio.rs": {
+      "sha256": "787a82df188796d492b520bbdb37efee41f7e7214f3aa7e167bd468074be25c9",
+      "mode": "0o644",
+      "bytes": 2474
+    },
+    "v2/qa/fixtures/sdk/src/storage.rs": {
+      "sha256": "6cbb7018c8e090fb801afd6410fc1275d18cec195d7d1b59d7138dce5d4f999a",
+      "mode": "0o644",
+      "bytes": 2493
+    },
+    "v2/qa/fresh-build.py": {
+      "sha256": "b5f114f44d362ed141c60f45b1a5ea07816555858db3a3ff0d2c48dc03e829e9",
+      "mode": "0o644",
+      "bytes": 2326
+    },
+    "v2/qa/geo_session.py": {
+      "sha256": "ec2c65dff45b66d3cba71924ed6cb7bc555af2d1d28f3ee1edf684ddf924d112",
+      "mode": "0o644",
+      "bytes": 4775
+    },
+    "v2/qa/host-input-tests.cjs": {
+      "sha256": "63856c4455027d1a661dd0a4fc594ab28cb5d175de4b4417f24f0e1360eaee7f",
+      "mode": "0o644",
+      "bytes": 14439
+    },
+    "v2/qa/host-producer.py": {
+      "sha256": "cb4f4b1b2196605fd96e05d13f25b0e63319fff0462c60f7a1501c1deab20f11",
+      "mode": "0o644",
+      "bytes": 4334
+    },
+    "v2/qa/host-test.cjs": {
+      "sha256": "177fc338d6f985a54c25c06c1b524c16cf25d24153ee4a7925e27ca8ee0418c0",
+      "mode": "0o644",
+      "bytes": 9092
+    },
+    "v2/qa/host-types.cjs": {
+      "sha256": "581fb9754f5e359cc72e1f180989e29d580755cd6ba190cfa5871ed61bdecf83",
+      "mode": "0o644",
+      "bytes": 4821
+    },
+    "v2/qa/host-view-body.ts.inc": {
+      "sha256": "38c937825b4aaf6e75cdca89977026e32a7d2bef241e5cbbd5552bedb0b9c241",
+      "mode": "0o644",
+      "bytes": 9069
+    },
+    "v2/qa/host_patch.py": {
+      "sha256": "080503ad4247c6c62cee333b8d3c6ada31358cf2e30aa7fe8e8f893efc7a6cec",
+      "mode": "0o644",
+      "bytes": 4200
+    },
+    "v2/qa/icon-provenance.json": {
+      "sha256": "6e6749e81814d98eacc24a1746d8938273b10a63f5c3c500dbfe190195d5fafa",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/inventory.py": {
+      "sha256": "2297001a27f557ba681de0ad315a6ecb9937e2b77d500324e83f01b8c3289f45",
+      "mode": "0o644",
+      "bytes": 1786
+    },
+    "v2/qa/lifecycle.py": {
+      "sha256": "cad617856f4b5c5bb951c6cd4ffc67b33f647f26e1af795ac41a9709ce525193",
+      "mode": "0o644",
+      "bytes": 8484
+    },
+    "v2/qa/locks/host-producer.Cargo.lock": {
+      "sha256": "2fc034192af973721f231a54dc32fac5827c4a324659b76a4085ade15f8dd4af",
+      "mode": "0o644",
+      "bytes": 10285
+    },
+    "v2/qa/locks/tls-helper.Cargo.lock": {
+      "sha256": "3b578d45336ea290c80e51d84ab954b34b791bfaef69b4d81c0523cb231d6fb6",
+      "mode": "0o644",
+      "bytes": 38011
+    },
+    "v2/qa/notices/cargo-host-producer/adler2-2.0.1/LICENSE-0BSD": {
+      "sha256": "861399f8c21c042b110517e76dc6b63a2b334276c8cf17412fc3c8908ca8dc17",
+      "mode": "0o644",
+      "bytes": 665
+    },
+    "v2/qa/notices/cargo-host-producer/adler2-2.0.1/LICENSE-APACHE": {
+      "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb",
+      "mode": "0o644",
+      "bytes": 10860
+    },
+    "v2/qa/notices/cargo-host-producer/adler2-2.0.1/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/aho-corasick-1.1.5/COPYING": {
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "mode": "0o644",
+      "bytes": 126
+    },
+    "v2/qa/notices/cargo-host-producer/aho-corasick-1.1.5/LICENSE-MIT": {
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/qa/notices/cargo-host-producer/aho-corasick-1.1.5/UNLICENSE": {
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "mode": "0o644",
+      "bytes": 1211
+    },
+    "v2/qa/notices/cargo-host-producer/autocfg-1.5.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/autocfg-1.5.1/LICENSE-MIT": {
+      "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac",
+      "mode": "0o644",
+      "bytes": 1054
+    },
+    "v2/qa/notices/cargo-host-producer/base64-0.22.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/base64-0.22.1/LICENSE-MIT": {
+      "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/qa/notices/cargo-host-producer/bitflags-1.3.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/bitflags-1.3.2/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-host-producer/block-buffer-0.10.4/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-host-producer/block-buffer-0.10.4/LICENSE-MIT": {
+      "sha256": "d5c22aa3118d240e877ad41c5d9fa232f9c77d757d4aac0c2f943afc0a95e0ef",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-host-producer/bytemuck-1.25.2/LICENSE-APACHE": {
+      "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb",
+      "mode": "0o644",
+      "bytes": 10398
+    },
+    "v2/qa/notices/cargo-host-producer/bytemuck-1.25.2/LICENSE-MIT": {
+      "sha256": "9df9ba60a11af705f2e451b53762686e615d86f76b169cf075c3237730dbd7e2",
+      "mode": "0o644",
+      "bytes": 1110
+    },
+    "v2/qa/notices/cargo-host-producer/bytemuck-1.25.2/LICENSE-ZLIB": {
+      "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151",
+      "mode": "0o644",
+      "bytes": 851
+    },
+    "v2/qa/notices/cargo-host-producer/byteorder-lite-0.1.0/LICENSE-MIT": {
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/qa/notices/cargo-host-producer/byteorder-lite-0.1.0/UNLICENSE": {
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "mode": "0o644",
+      "bytes": 1211
+    },
+    "v2/qa/notices/cargo-host-producer/cfg-if-1.0.5/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/cfg-if-1.0.5/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-host-producer/cpufeatures-0.2.17/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-host-producer/cpufeatures-0.2.17/LICENSE-MIT": {
+      "sha256": "ae9baa7beea910273c2f384c2a6b721fb7bd02bda3436074a1072e4ee689f985",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-host-producer/crc32fast-1.5.3/LICENSE-APACHE": {
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/qa/notices/cargo-host-producer/crc32fast-1.5.3/LICENSE-MIT": {
+      "sha256": "61d383b05b87d78f94d2937e2580cce47226d17823c0430fbcad09596537efcf",
+      "mode": "0o644",
+      "bytes": 1097
+    },
+    "v2/qa/notices/cargo-host-producer/crypto-common-0.1.7/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-host-producer/crypto-common-0.1.7/LICENSE-MIT": {
+      "sha256": "3521672491a3479422d5fe1aca6645dd2984090f85da6e5205abfb18fb7a6897",
+      "mode": "0o644",
+      "bytes": 1065
+    },
+    "v2/qa/notices/cargo-host-producer/digest-0.10.7/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-host-producer/digest-0.10.7/LICENSE-MIT": {
+      "sha256": "9e0dfd2dd4173a530e238cb6adb37aa78c34c6bc7444e0e10c1ab5d8881f63ba",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-host-producer/fdeflate-0.3.7/LICENSE-APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/qa/notices/cargo-host-producer/fdeflate-0.3.7/LICENSE-MIT": {
+      "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3",
+      "mode": "0o644",
+      "bytes": 1036
+    },
+    "v2/qa/notices/cargo-host-producer/flate2-1.1.10/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/flate2-1.1.10/LICENSE-MIT": {
+      "sha256": "025436edff4cfcdde17a5811fdea78892d8482efd1abdec5a17872d07a4f2112",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-host-producer/generic-array-0.14.7/LICENSE": {
+      "sha256": "c09aae9d3c77b531f56351a9947bc7446511d6b025b3255312d3e3442a9a7583",
+      "mode": "0o644",
+      "bytes": 1107
+    },
+    "v2/qa/notices/cargo-host-producer/image-0.25.6/LICENSE-APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/qa/notices/cargo-host-producer/image-0.25.6/LICENSE-MIT": {
+      "sha256": "c77a4cf9da729987d0fe7ccd811e3bd27393914ddf3d23467c18cc22954513b3",
+      "mode": "0o644",
+      "bytes": 1036
+    },
+    "v2/qa/notices/cargo-host-producer/itoa-1.0.18/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/itoa-1.0.18/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/libc-0.2.191/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/libc-0.2.191/LICENSE-MIT": {
+      "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e",
+      "mode": "0o644",
+      "bytes": 1066
+    },
+    "v2/qa/notices/cargo-host-producer/log-0.4.34/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/log-0.4.34/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-host-producer/memchr-2.8.3/COPYING": {
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "mode": "0o644",
+      "bytes": 126
+    },
+    "v2/qa/notices/cargo-host-producer/memchr-2.8.3/LICENSE-MIT": {
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/qa/notices/cargo-host-producer/memchr-2.8.3/UNLICENSE": {
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "mode": "0o644",
+      "bytes": 1211
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.8.9/LICENSE": {
+      "sha256": "4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b",
+      "mode": "0o644",
+      "bytes": 1213
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.8.9/LICENSE-APACHE.md": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.8.9/LICENSE-MIT.md": {
+      "sha256": "799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d",
+      "mode": "0o644",
+      "bytes": 1212
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.8.9/LICENSE-ZLIB.md": {
+      "sha256": "0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39",
+      "mode": "0o644",
+      "bytes": 984
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.9.1/LICENSE": {
+      "sha256": "4108245a1f2df9d4e94df8abed5b4ba0759bb2f9b40a6b939f1be141077ae50b",
+      "mode": "0o644",
+      "bytes": 1213
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.9.1/LICENSE-APACHE.md": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.9.1/LICENSE-MIT.md": {
+      "sha256": "799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d",
+      "mode": "0o644",
+      "bytes": 1212
+    },
+    "v2/qa/notices/cargo-host-producer/miniz_oxide-0.9.1/LICENSE-ZLIB.md": {
+      "sha256": "0a54e647fe54104658b5e563c04c6f9edf251710e47bce692e0bd990a4ddaa39",
+      "mode": "0o644",
+      "bytes": 984
+    },
+    "v2/qa/notices/cargo-host-producer/num-traits-0.2.19/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/num-traits-0.2.19/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-host-producer/pin-project-lite-0.2.17/LICENSE-APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/qa/notices/cargo-host-producer/pin-project-lite-0.2.17/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/png-0.17.16/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/png-0.17.16/LICENSE-MIT": {
+      "sha256": "eaf40297c75da471f7cda1f3458e8d91b4b2ec866e609527a13acfa93b638652",
+      "mode": "0o644",
+      "bytes": 1048
+    },
+    "v2/qa/notices/cargo-host-producer/proc-macro2-1.0.107/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/proc-macro2-1.0.107/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/quote-1.0.47/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/quote-1.0.47/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/regex-1.13.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/regex-1.13.1/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-host-producer/regex-automata-0.4.18/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/regex-automata-0.4.18/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-host-producer/regex-syntax-0.8.11/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/regex-syntax-0.8.11/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-host-producer/regex-syntax-0.8.11/src/unicode_tables/LICENSE-UNICODE": {
+      "sha256": "74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3",
+      "mode": "0o644",
+      "bytes": 2847
+    },
+    "v2/qa/notices/cargo-host-producer/serde-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/serde-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/serde_core-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/serde_core-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/serde_derive-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/serde_derive-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/serde_json-1.0.154/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/serde_json-1.0.154/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/sha1-0.10.7/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-host-producer/sha1-0.10.7/LICENSE-MIT": {
+      "sha256": "b4eb00df6e2a4d22518fcaa6a2b4646f249b3a3c9814509b22bd2091f1392ff1",
+      "mode": "0o644",
+      "bytes": 1138
+    },
+    "v2/qa/notices/cargo-host-producer/simd-adler32-0.3.10/LICENSE.md": {
+      "sha256": "42a35170233e83e18856792e748de4c1ce4a63b2afce9a370c89ef3fe23f9f2d",
+      "mode": "0o644",
+      "bytes": 1078
+    },
+    "v2/qa/notices/cargo-host-producer/syn-3.0.9/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/syn-3.0.9/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/tokio-1.54.1/LICENSE": {
+      "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552",
+      "mode": "0o644",
+      "bytes": 1070
+    },
+    "v2/qa/notices/cargo-host-producer/tokio-macros-2.7.2/LICENSE": {
+      "sha256": "0b83dc40cba89b9922bb84b0a9c7d2768ce37c1d7e138b7424fd4549915778c9",
+      "mode": "0o644",
+      "bytes": 1102
+    },
+    "v2/qa/notices/cargo-host-producer/typenum-1.20.1/LICENSE": {
+      "sha256": "db11fec9946737df39ca3898d9cd8c10ec6f6c3a884a6802b0ad0b81b4e8f23a",
+      "mode": "0o644",
+      "bytes": 17
+    },
+    "v2/qa/notices/cargo-host-producer/typenum-1.20.1/LICENSE-APACHE": {
+      "sha256": "516b24e051bf5630880ebbd55c40a25ce9552ebaf8970a53e8976eb70e522406",
+      "mode": "0o644",
+      "bytes": 10835
+    },
+    "v2/qa/notices/cargo-host-producer/typenum-1.20.1/LICENSE-MIT": {
+      "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f",
+      "mode": "0o644",
+      "bytes": 1083
+    },
+    "v2/qa/notices/cargo-host-producer/unicode-ident-1.0.27/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-host-producer/unicode-ident-1.0.27/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-host-producer/unicode-ident-1.0.27/LICENSE-UNICODE": {
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1",
+      "mode": "0o644",
+      "bytes": 1995
+    },
+    "v2/qa/notices/cargo-host-producer/version_check-0.9.5/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-host-producer/version_check-0.9.5/LICENSE-MIT": {
+      "sha256": "b7e650f3fce5c53249d1cdc608b54df156a97edd636cf9d23498d0cfe7aec63e",
+      "mode": "0o644",
+      "bytes": 1085
+    },
+    "v2/qa/notices/cargo-host-producer/zlib-rs-0.6.8/LICENSE": {
+      "sha256": "e72111c52b7d96ebe25348dee19f0744f444d3c95ae6b1ecb6ccaecc5bce05ba",
+      "mode": "0o644",
+      "bytes": 856
+    },
+    "v2/qa/notices/cargo-host-producer/zmij-1.0.23/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/aho-corasick-1.1.5/COPYING": {
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "mode": "0o644",
+      "bytes": 126
+    },
+    "v2/qa/notices/cargo-tls-helper/aho-corasick-1.1.5/LICENSE-MIT": {
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/qa/notices/cargo-tls-helper/aho-corasick-1.1.5/UNLICENSE": {
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "mode": "0o644",
+      "bytes": 1211
+    },
+    "v2/qa/notices/cargo-tls-helper/atomic-waker-1.1.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/atomic-waker-1.1.2/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/atomic-waker-1.1.2/LICENSE-THIRD-PARTY": {
+      "sha256": "6226d0632e2e1a80c23597e964da9812ae193c535fe058154afb034e94167aa5",
+      "mode": "0o644",
+      "bytes": 1849
+    },
+    "v2/qa/notices/cargo-tls-helper/autocfg-1.5.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/autocfg-1.5.1/LICENSE-MIT": {
+      "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac",
+      "mode": "0o644",
+      "bytes": 1054
+    },
+    "v2/qa/notices/cargo-tls-helper/base64-0.22.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/base64-0.22.1/LICENSE-MIT": {
+      "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/qa/notices/cargo-tls-helper/base64-0.23.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/base64-0.23.1/LICENSE-MIT": {
+      "sha256": "ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c",
+      "mode": "0o644",
+      "bytes": 1093
+    },
+    "v2/qa/notices/cargo-tls-helper/bitflags-2.13.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/bitflags-2.13.2/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/bumpalo-3.20.3/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/bumpalo-3.20.3/LICENSE-MIT": {
+      "sha256": "65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee",
+      "mode": "0o644",
+      "bytes": 1059
+    },
+    "v2/qa/notices/cargo-tls-helper/bytes-1.12.1/LICENSE": {
+      "sha256": "45f522cacecb1023856e46df79ca625dfc550c94910078bd8aec6e02880b3d42",
+      "mode": "0o644",
+      "bytes": 1055
+    },
+    "v2/qa/notices/cargo-tls-helper/cc-1.10.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/cc-1.10.0/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/cfg-if-1.0.5/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/cfg-if-1.0.5/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/cfg_aliases-0.2.2/LICENSE": {
+      "sha256": "31b94860253d8ec7b4529f51901044d3b459d6292d996504a36b1bae3a36a812",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/qa/notices/cargo-tls-helper/cfg_aliases-0.2.2/NOTICES.md": {
+      "sha256": "1e2b7ade3fb228130408b9990cae6a7618eb314c75aa0b164bfe485d9d9756ee",
+      "mode": "0o644",
+      "bytes": 1472
+    },
+    "v2/qa/notices/cargo-tls-helper/chacha20-0.10.2/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-tls-helper/chacha20-0.10.2/LICENSE-MIT": {
+      "sha256": "b8c6939380a400f53e11923d50fcc4dd2fa1ba8339fd9d04cda38a0251b6c9b0",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-tls-helper/cpufeatures-0.3.1/LICENSE-APACHE": {
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-tls-helper/cpufeatures-0.3.1/LICENSE-MIT": {
+      "sha256": "73b9dc2e79c7308998dd30296e073aefaefb944a68fb89aa412c23c0edcabcaa",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-tls-helper/displaydoc-0.2.7/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/displaydoc-0.2.7/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/equivalent-1.0.3/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/equivalent-1.0.3/LICENSE-MIT": {
+      "sha256": "7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349",
+      "mode": "0o644",
+      "bytes": 1049
+    },
+    "v2/qa/notices/cargo-tls-helper/errno-0.3.14/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/errno-0.3.14/LICENSE-MIT": {
+      "sha256": "8764a597675778ddfd4e25f81b08a05dbcf089ac05662df7613fe67f150e3aa2",
+      "mode": "0o644",
+      "bytes": 1054
+    },
+    "v2/qa/notices/cargo-tls-helper/fastrand-2.5.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/fastrand-2.5.0/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/find-msvc-tools-0.1.15/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/find-msvc-tools-0.1.15/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/foldhash-0.2.0/LICENSE": {
+      "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744",
+      "mode": "0o644",
+      "bytes": 856
+    },
+    "v2/qa/notices/cargo-tls-helper/form_urlencoded-1.2.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/form_urlencoded-1.2.2/LICENSE-MIT": {
+      "sha256": "20c7855c364d57ea4c97889a5e8d98470a9952dade37bd9248b9a54431670e5e",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-channel-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-channel-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-core-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-core-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-io-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-io-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-macro-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-macro-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-sink-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-sink-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-task-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-task-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-util-0.3.34/LICENSE-APACHE": {
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+      "mode": "0o644",
+      "bytes": 10874
+    },
+    "v2/qa/notices/cargo-tls-helper/futures-util-0.3.34/LICENSE-MIT": {
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/cargo-tls-helper/getrandom-0.2.17/LICENSE-APACHE": {
+      "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-tls-helper/getrandom-0.2.17/LICENSE-MIT": {
+      "sha256": "42fa16951ce7f24b5a467a40e5b449a1d41e662f97ca779864f053f39e097737",
+      "mode": "0o644",
+      "bytes": 1130
+    },
+    "v2/qa/notices/cargo-tls-helper/getrandom-0.4.3/LICENSE-APACHE": {
+      "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf",
+      "mode": "0o644",
+      "bytes": 10849
+    },
+    "v2/qa/notices/cargo-tls-helper/getrandom-0.4.3/LICENSE-MIT": {
+      "sha256": "523a42c25d245dde9c015f882cec7f4555aad883382a6cf19b4b7d9b2cd5419b",
+      "mode": "0o644",
+      "bytes": 1130
+    },
+    "v2/qa/notices/cargo-tls-helper/hashbrown-0.17.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/hashbrown-0.17.1/LICENSE-MIT": {
+      "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+      "mode": "0o644",
+      "bytes": 1060
+    },
+    "v2/qa/notices/cargo-tls-helper/http-1.5.0/LICENSE-APACHE": {
+      "sha256": "8bb1b50b0e5c9399ae33bd35fab2769010fa6c14e8860c729a52295d84896b7a",
+      "mode": "0o644",
+      "bytes": 10835
+    },
+    "v2/qa/notices/cargo-tls-helper/http-1.5.0/LICENSE-MIT": {
+      "sha256": "dc91f8200e4b2a1f9261035d4c18c33c246911a6c0f7b543d75347e61b249cff",
+      "mode": "0o644",
+      "bytes": 1059
+    },
+    "v2/qa/notices/cargo-tls-helper/http-body-1.1.0/LICENSE": {
+      "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab",
+      "mode": "0o644",
+      "bytes": 1083
+    },
+    "v2/qa/notices/cargo-tls-helper/http-body-util-0.1.5/LICENSE": {
+      "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab",
+      "mode": "0o644",
+      "bytes": 1083
+    },
+    "v2/qa/notices/cargo-tls-helper/httparse-1.10.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/httparse-1.10.1/LICENSE-MIT": {
+      "sha256": "391a5396cec6230bfabd4ef4eb2350eb895bc5efce377a2218f5702ed020d3e3",
+      "mode": "0o644",
+      "bytes": 1063
+    },
+    "v2/qa/notices/cargo-tls-helper/hyper-1.12.0/LICENSE": {
+      "sha256": "2d01890414494742ba4a509fcec8efa40f6d8be22cbd72be7cff08d6fda4ec89",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/hyper-rustls-0.27.10/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/hyper-rustls-0.27.10/LICENSE-ISC": {
+      "sha256": "7cfafc877eccc46c0e346ccbaa5c51bb6b894d2b818e617d970211e232785ad4",
+      "mode": "0o644",
+      "bytes": 775
+    },
+    "v2/qa/notices/cargo-tls-helper/hyper-rustls-0.27.10/LICENSE-MIT": {
+      "sha256": "709e3175b4212f7b13aa93971c9f62ff8c69ec45ad8c6532a7e0c41d7a7d6f8c",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-tls-helper/hyper-util-0.1.21/LICENSE": {
+      "sha256": "9e0a97848ea543aef745c98e84fde696a9a3e0735538f6daefdd3cb1942effc1",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/icu_collections-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/icu_locale_core-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/icu_normalizer-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/icu_normalizer_data-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/icu_properties-2.1.2/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/icu_properties_data-2.1.2/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/icu_provider-2.1.1/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/idna-1.1.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/idna-1.1.0/LICENSE-MIT": {
+      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/qa/notices/cargo-tls-helper/idna_adapter-1.2.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/idna_adapter-1.2.1/LICENSE-MIT": {
+      "sha256": "8b43ce8accd61e9d370b5ca9e9c4f953279b5c239926c62315b40e24df51b726",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/indexmap-2.14.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/indexmap-2.14.2/LICENSE-MIT": {
+      "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055",
+      "mode": "0o644",
+      "bytes": 1049
+    },
+    "v2/qa/notices/cargo-tls-helper/ipnet-2.12.2/LICENSE-APACHE": {
+      "sha256": "87d9feb9238c6bd8e0024fc4733b06cff036f89f36d93b7df1c8a0549bbb7a5b",
+      "mode": "0o644",
+      "bytes": 11352
+    },
+    "v2/qa/notices/cargo-tls-helper/ipnet-2.12.2/LICENSE-MIT": {
+      "sha256": "47dc9ff29128ddfb4d6a0435383c9f89120bc374dbcc1dd00b933a0b28aa7865",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/itoa-1.0.18/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/itoa-1.0.18/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/js-sys-0.3.106/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/js-sys-0.3.106/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/libc-0.2.191/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/libc-0.2.191/LICENSE-MIT": {
+      "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e",
+      "mode": "0o644",
+      "bytes": 1066
+    },
+    "v2/qa/notices/cargo-tls-helper/linux-raw-sys-0.12.1/COPYRIGHT": {
+      "sha256": "3290ae0fbc9ddb77d2239121d710f0bb9d31b3b4744e6d97fe01e652b4c1870b",
+      "mode": "0o644",
+      "bytes": 881
+    },
+    "v2/qa/notices/cargo-tls-helper/linux-raw-sys-0.12.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/linux-raw-sys-0.12.1/LICENSE-Apache-2.0_WITH_LLVM-exception": {
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "mode": "0o644",
+      "bytes": 12243
+    },
+    "v2/qa/notices/cargo-tls-helper/linux-raw-sys-0.12.1/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/litemap-0.8.3/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/log-0.4.34/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/log-0.4.34/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/lru-slab-0.1.3/LICENSE-APACHE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/qa/notices/cargo-tls-helper/lru-slab-0.1.3/LICENSE-MIT": {
+      "sha256": "1466d9b4f3a59bb8997fc8d5fa977ce3f6a24bb2358793c09bfdf007039f6486",
+      "mode": "0o644",
+      "bytes": 1067
+    },
+    "v2/qa/notices/cargo-tls-helper/lru-slab-0.1.3/LICENSE-ZLIB": {
+      "sha256": "09785877275ffada6c371b652a30e95c26b435126fc0fc62f1bc2d72171f80a4",
+      "mode": "0o644",
+      "bytes": 864
+    },
+    "v2/qa/notices/cargo-tls-helper/memchr-2.8.3/COPYING": {
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "mode": "0o644",
+      "bytes": 126
+    },
+    "v2/qa/notices/cargo-tls-helper/memchr-2.8.3/LICENSE-MIT": {
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/qa/notices/cargo-tls-helper/memchr-2.8.3/UNLICENSE": {
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "mode": "0o644",
+      "bytes": 1211
+    },
+    "v2/qa/notices/cargo-tls-helper/mio-1.2.4/LICENSE": {
+      "sha256": "07919255c7e04793d8ea760d6c2ce32d19f9ff02bdbdde3ce90b1e1880929a9b",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-tls-helper/num-bigint-0.4.8/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/num-bigint-0.4.8/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/num-integer-0.1.47/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/num-integer-0.1.47/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/num-traits-0.2.19/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/num-traits-0.2.19/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/once_cell-1.21.4/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/once_cell-1.21.4/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/percent-encoding-2.3.2/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/percent-encoding-2.3.2/LICENSE-MIT": {
+      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/qa/notices/cargo-tls-helper/pin-project-lite-0.2.17/LICENSE-APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/qa/notices/cargo-tls-helper/pin-project-lite-0.2.17/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/potential_utf-0.1.6/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/proc-macro2-1.0.107/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/proc-macro2-1.0.107/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/quinn-0.11.12/LICENSE-APACHE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    "v2/qa/notices/cargo-tls-helper/quinn-0.11.12/LICENSE-MIT": {
+      "sha256": "4b2d0aca6789fa39e03d6738e869ea0988cceba210ca34ebb59c15c463e93a04",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/qa/notices/cargo-tls-helper/quinn-proto-0.11.19/LICENSE-APACHE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    "v2/qa/notices/cargo-tls-helper/quinn-proto-0.11.19/LICENSE-MIT": {
+      "sha256": "4b2d0aca6789fa39e03d6738e869ea0988cceba210ca34ebb59c15c463e93a04",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/qa/notices/cargo-tls-helper/quinn-udp-0.5.16/LICENSE-APACHE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    "v2/qa/notices/cargo-tls-helper/quinn-udp-0.5.16/LICENSE-MIT": {
+      "sha256": "4b2d0aca6789fa39e03d6738e869ea0988cceba210ca34ebb59c15c463e93a04",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/qa/notices/cargo-tls-helper/quote-1.0.47/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/quote-1.0.47/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/r-efi-6.0.0/AUTHORS": {
+      "sha256": "d027e91dbc9cdbb2f1190068e498bd6b61cff022b6a032b191021ba658d96111",
+      "mode": "0o644",
+      "bytes": 3733
+    },
+    "v2/qa/notices/cargo-tls-helper/rand-0.10.3/COPYRIGHT": {
+      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5",
+      "mode": "0o644",
+      "bytes": 569
+    },
+    "v2/qa/notices/cargo-tls-helper/rand-0.10.3/LICENSE-APACHE": {
+      "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab",
+      "mode": "0o644",
+      "bytes": 9724
+    },
+    "v2/qa/notices/cargo-tls-helper/rand-0.10.3/LICENSE-MIT": {
+      "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/cargo-tls-helper/rand_core-0.10.1/COPYRIGHT": {
+      "sha256": "92b81db30f7ab6d693e0af5661a40d273ca1947e891123ed823924192c10cbc7",
+      "mode": "0o644",
+      "bytes": 478
+    },
+    "v2/qa/notices/cargo-tls-helper/rand_core-0.10.1/LICENSE-APACHE": {
+      "sha256": "6df43f6f4b5d4587f3d8d71e45532c688fd168afa5fe89d571cb32fa09c4ef51",
+      "mode": "0o644",
+      "bytes": 10282
+    },
+    "v2/qa/notices/cargo-tls-helper/rand_core-0.10.1/LICENSE-MIT": {
+      "sha256": "8b6e9feec03e7c9a5facb26855cecd31662bf989b636bcfe79521bdf8ac863f0",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/qa/notices/cargo-tls-helper/rand_pcg-0.10.2/COPYRIGHT": {
+      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5",
+      "mode": "0o644",
+      "bytes": 569
+    },
+    "v2/qa/notices/cargo-tls-helper/rand_pcg-0.10.2/LICENSE-APACHE": {
+      "sha256": "6df43f6f4b5d4587f3d8d71e45532c688fd168afa5fe89d571cb32fa09c4ef51",
+      "mode": "0o644",
+      "bytes": 10282
+    },
+    "v2/qa/notices/cargo-tls-helper/rand_pcg-0.10.2/LICENSE-MIT": {
+      "sha256": "2234e3cefee876aeb686ad89e978bdb07bf118a1186ab1cf161bcdf69d4b4f57",
+      "mode": "0o644",
+      "bytes": 1139
+    },
+    "v2/qa/notices/cargo-tls-helper/regex-1.13.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/regex-1.13.1/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/regex-automata-0.4.18/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/regex-automata-0.4.18/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/regex-syntax-0.8.11/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/regex-syntax-0.8.11/LICENSE-MIT": {
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/cargo-tls-helper/regex-syntax-0.8.11/src/unicode_tables/LICENSE-UNICODE": {
+      "sha256": "74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3",
+      "mode": "0o644",
+      "bytes": 2847
+    },
+    "v2/qa/notices/cargo-tls-helper/reqwest-0.12.28/LICENSE-APACHE": {
+      "sha256": "751963a8b88c0e3a9f27e98933079fbcf09b9998b2c13ac49c2e4d58444520d6",
+      "mode": "0o644",
+      "bytes": 10833
+    },
+    "v2/qa/notices/cargo-tls-helper/reqwest-0.12.28/LICENSE-MIT": {
+      "sha256": "47d4e1803702728e03d30f8a848ae2249ba274bbd9f8443e803f7924d83cd371",
+      "mode": "0o644",
+      "bytes": 1063
+    },
+    "v2/qa/notices/cargo-tls-helper/ring-0.17.14/LICENSE": {
+      "sha256": "b3d734001a94efff3579978d953391aa7115f877657d25eb54037a43875d078a",
+      "mode": "0o644",
+      "bytes": 499
+    },
+    "v2/qa/notices/cargo-tls-helper/ring-0.17.14/LICENSE-BoringSSL": {
+      "sha256": "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d",
+      "mode": "0o644",
+      "bytes": 14870
+    },
+    "v2/qa/notices/cargo-tls-helper/ring-0.17.14/LICENSE-other-bits": {
+      "sha256": "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f",
+      "mode": "0o644",
+      "bytes": 731
+    },
+    "v2/qa/notices/cargo-tls-helper/ring-0.17.14/src/polyfill/once_cell/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/ring-0.17.14/src/polyfill/once_cell/LICENSE-MIT": {
+      "sha256": "6ee2ed6c77710de911761acd5fc1ad1da00f476beb1a7ef27e78c2d1858deafc",
+      "mode": "0o644",
+      "bytes": 1022
+    },
+    "v2/qa/notices/cargo-tls-helper/ring-0.17.14/third_party/fiat/LICENSE": {
+      "sha256": "9eacbcb81be660840c714a560a9d65ba07913db98dd4baf969f78dd499fdd60f",
+      "mode": "0o644",
+      "bytes": 638
+    },
+    "v2/qa/notices/cargo-tls-helper/rustc-hash-2.1.3/LICENSE-APACHE": {
+      "sha256": "95bd3988beee069fa2848f648dab43cc6e0b2add2ad6bcb17360caf749802bcc",
+      "mode": "0o644",
+      "bytes": 9722
+    },
+    "v2/qa/notices/cargo-tls-helper/rustc-hash-2.1.3/LICENSE-MIT": {
+      "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652",
+      "mode": "0o644",
+      "bytes": 1022
+    },
+    "v2/qa/notices/cargo-tls-helper/rustix-1.1.6/COPYRIGHT": {
+      "sha256": "377c2e7c53250cc5905c0b0532d35973392af16ffb9596a41d99d202cf3617c9",
+      "mode": "0o644",
+      "bytes": 853
+    },
+    "v2/qa/notices/cargo-tls-helper/rustix-1.1.6/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/rustix-1.1.6/LICENSE-Apache-2.0_WITH_LLVM-exception": {
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "mode": "0o644",
+      "bytes": 12243
+    },
+    "v2/qa/notices/cargo-tls-helper/rustix-1.1.6/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/rustls-0.23.46/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/rustls-0.23.46/LICENSE-ISC": {
+      "sha256": "7cfafc877eccc46c0e346ccbaa5c51bb6b894d2b818e617d970211e232785ad4",
+      "mode": "0o644",
+      "bytes": 775
+    },
+    "v2/qa/notices/cargo-tls-helper/rustls-0.23.46/LICENSE-MIT": {
+      "sha256": "709e3175b4212f7b13aa93971c9f62ff8c69ec45ad8c6532a7e0c41d7a7d6f8c",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-tls-helper/rustls-pki-types-1.15.1/LICENSE-APACHE": {
+      "sha256": "45fd05c4865e7c350b98ad7ac50e1b15462d49af4a91e9b0c9dd933dc9a69742",
+      "mode": "0o644",
+      "bytes": 10835
+    },
+    "v2/qa/notices/cargo-tls-helper/rustls-pki-types-1.15.1/LICENSE-MIT": {
+      "sha256": "9117d922e667125508dde62b02c1f57ed22f5ad21eb536aa2e2d99e1c796e639",
+      "mode": "0o644",
+      "bytes": 1080
+    },
+    "v2/qa/notices/cargo-tls-helper/rustls-webpki-0.103.16/LICENSE": {
+      "sha256": "5b698ca13897be3afdb7174256fa1574f8c6892b8bea1a66dd6469d3fe27885a",
+      "mode": "0o644",
+      "bytes": 916
+    },
+    "v2/qa/notices/cargo-tls-helper/rustversion-1.0.23/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/rustversion-1.0.23/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/ryu-1.0.23/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/ryu-1.0.23/LICENSE-BOOST": {
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "mode": "0o644",
+      "bytes": 1338
+    },
+    "v2/qa/notices/cargo-tls-helper/ryu-js-1.0.3/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/ryu-js-1.0.3/LICENSE-BOOST": {
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "mode": "0o644",
+      "bytes": 1338
+    },
+    "v2/qa/notices/cargo-tls-helper/serde-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/serde-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_core-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_core-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_derive-1.0.229/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_derive-1.0.229/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_json-1.0.154/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_json-1.0.154/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_urlencoded-0.7.1/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/serde_urlencoded-0.7.1/LICENSE-MIT": {
+      "sha256": "b9eb266294324f672cbe945fe8f2e32f85024f0d61a1a7d14382cdde0ac44769",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/cargo-tls-helper/shlex-2.0.1/LICENSE-APACHE": {
+      "sha256": "553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583",
+      "mode": "0o644",
+      "bytes": 566
+    },
+    "v2/qa/notices/cargo-tls-helper/shlex-2.0.1/LICENSE-MIT": {
+      "sha256": "4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1",
+      "mode": "0o644",
+      "bytes": 1092
+    },
+    "v2/qa/notices/cargo-tls-helper/signal-hook-registry-1.4.8/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/signal-hook-registry-1.4.8/LICENSE-MIT": {
+      "sha256": "503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c",
+      "mode": "0o644",
+      "bytes": 1068
+    },
+    "v2/qa/notices/cargo-tls-helper/slab-0.4.12/LICENSE": {
+      "sha256": "8ce0830173fdac609dfb4ea603fdc002c2f4af0dc9b1a005653f5da9cf534b18",
+      "mode": "0o644",
+      "bytes": 1055
+    },
+    "v2/qa/notices/cargo-tls-helper/smallvec-1.16.4/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/smallvec-1.16.4/LICENSE-MIT": {
+      "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/qa/notices/cargo-tls-helper/socket2-0.6.5/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/socket2-0.6.5/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/stable_deref_trait-1.2.1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/stable_deref_trait-1.2.1/LICENSE-MIT": {
+      "sha256": "5e05b024f653a5ce199e77cbbbd42fb5553562ec714b819421ed0c3e552a75d7",
+      "mode": "0o644",
+      "bytes": 1056
+    },
+    "v2/qa/notices/cargo-tls-helper/subtle-2.6.1/LICENSE": {
+      "sha256": "d1fc1bc0d155df60b2e7705b6b2ae02a05c96f948e1cec6e2fb86360b09f346b",
+      "mode": "0o644",
+      "bytes": 1582
+    },
+    "v2/qa/notices/cargo-tls-helper/syn-3.0.9/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/syn-3.0.9/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/sync_wrapper-1.0.2/LICENSE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "mode": "0o644",
+      "bytes": 10174
+    },
+    "v2/qa/notices/cargo-tls-helper/synstructure-0.14.0/LICENSE": {
+      "sha256": "219920e865eee70b7dcfc948a86b099e7f4fe2de01bcca2ca9a20c0a033f2b59",
+      "mode": "0o644",
+      "bytes": 1052
+    },
+    "v2/qa/notices/cargo-tls-helper/tempfile-3.27.0/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/tempfile-3.27.0/LICENSE-MIT": {
+      "sha256": "8b427f5bc501764575e52ba4f9d95673cf8f6d80a86d0d06599852e1a9a20a36",
+      "mode": "0o644",
+      "bytes": 1056
+    },
+    "v2/qa/notices/cargo-tls-helper/thiserror-2.0.21/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/thiserror-2.0.21/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/thiserror-impl-2.0.21/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/thiserror-impl-2.0.21/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/tinystr-0.8.5/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/tinyvec-1.13.3/LICENSE-APACHE.md": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/qa/notices/cargo-tls-helper/tinyvec-1.13.3/LICENSE-MIT.md": {
+      "sha256": "fd80a26fbb3f644af1fa994134446702932968519797227e07a1368dea80f0bc",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/tinyvec-1.13.3/LICENSE-ZLIB.md": {
+      "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151",
+      "mode": "0o644",
+      "bytes": 851
+    },
+    "v2/qa/notices/cargo-tls-helper/tokio-1.54.1/LICENSE": {
+      "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552",
+      "mode": "0o644",
+      "bytes": 1070
+    },
+    "v2/qa/notices/cargo-tls-helper/tokio-macros-2.7.2/LICENSE": {
+      "sha256": "0b83dc40cba89b9922bb84b0a9c7d2768ce37c1d7e138b7424fd4549915778c9",
+      "mode": "0o644",
+      "bytes": 1102
+    },
+    "v2/qa/notices/cargo-tls-helper/tokio-rustls-0.26.6/LICENSE-APACHE": {
+      "sha256": "cc117d90b498b32b11a886f279b359da16a73c3b01efbb2f5cc004b20262334e",
+      "mode": "0o644",
+      "bytes": 10832
+    },
+    "v2/qa/notices/cargo-tls-helper/tokio-rustls-0.26.6/LICENSE-MIT": {
+      "sha256": "e20fa2b8e0a2565f24a792b94b4bf4b6c2b9d36f781d8a9516e218a036e6677a",
+      "mode": "0o644",
+      "bytes": 1056
+    },
+    "v2/qa/notices/cargo-tls-helper/tokio-util-0.7.20/LICENSE": {
+      "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552",
+      "mode": "0o644",
+      "bytes": 1070
+    },
+    "v2/qa/notices/cargo-tls-helper/tower-0.5.3/LICENSE": {
+      "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/tower-http-0.6.11/LICENSE": {
+      "sha256": "5049cf464977eff4b4fcfa7988d84e74116956a3eb9d5f1d451b3f828f945233",
+      "mode": "0o644",
+      "bytes": 1067
+    },
+    "v2/qa/notices/cargo-tls-helper/tower-layer-0.3.3/LICENSE": {
+      "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/tower-service-0.3.3/LICENSE": {
+      "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/tracing-0.1.44/LICENSE": {
+      "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/tracing-core-0.1.36/LICENSE": {
+      "sha256": "898b1ae9821e98daf8964c8d6c7f61641f5f5aa78ad500020771c0939ee0dea1",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/cargo-tls-helper/tracing-core-0.1.36/src/spin/LICENSE": {
+      "sha256": "58545fed1565e42d687aecec6897d35c6d37ccb71479a137c0deb2203e125c79",
+      "mode": "0o644",
+      "bytes": 1085
+    },
+    "v2/qa/notices/cargo-tls-helper/try-lock-0.2.5/LICENSE": {
+      "sha256": "c816a0749cdc6bf062a5111c159723de51b2bfac66a1dac2655abd9e6b1583eb",
+      "mode": "0o644",
+      "bytes": 1096
+    },
+    "v2/qa/notices/cargo-tls-helper/unicode-ident-1.0.27/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/unicode-ident-1.0.27/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/unicode-ident-1.0.27/LICENSE-UNICODE": {
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1",
+      "mode": "0o644",
+      "bytes": 1995
+    },
+    "v2/qa/notices/cargo-tls-helper/untrusted-0.9.0/LICENSE.txt": {
+      "sha256": "7abd9b6960dcf7d4d0a48606a5b71bfe37d472db68d70637f3a58a56785f1621",
+      "mode": "0o644",
+      "bytes": 769
+    },
+    "v2/qa/notices/cargo-tls-helper/url-2.5.8/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/url-2.5.8/LICENSE-MIT": {
+      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/qa/notices/cargo-tls-helper/utf8_iter-1.0.4/COPYRIGHT": {
+      "sha256": "c30152c94a6d75e021adbc52b3a52470366a46edb917e17deae3259251af244c",
+      "mode": "0o644",
+      "bytes": 1742
+    },
+    "v2/qa/notices/cargo-tls-helper/utf8_iter-1.0.4/LICENSE-APACHE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/qa/notices/cargo-tls-helper/utf8_iter-1.0.4/LICENSE-MIT": {
+      "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c",
+      "mode": "0o644",
+      "bytes": 1053
+    },
+    "v2/qa/notices/cargo-tls-helper/uuid-1.23.3/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/uuid-1.23.3/LICENSE-MIT": {
+      "sha256": "436bc5a105d8e57dcd8778730f3754f7bf39c14d2f530e4cde4bd2d17a83ec3d",
+      "mode": "0o644",
+      "bytes": 1157
+    },
+    "v2/qa/notices/cargo-tls-helper/want-0.3.2/LICENSE": {
+      "sha256": "a65f5d0a945d267751344c95665945b90c030ea107faf5c85d518929886187da",
+      "mode": "0o644",
+      "bytes": 1063
+    },
+    "v2/qa/notices/cargo-tls-helper/wasi-0.11.1+wasi-snapshot-preview1/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/wasi-0.11.1+wasi-snapshot-preview1/LICENSE-Apache-2.0_WITH_LLVM-exception": {
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+      "mode": "0o644",
+      "bytes": 12243
+    },
+    "v2/qa/notices/cargo-tls-helper/wasi-0.11.1+wasi-snapshot-preview1/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-futures-0.4.79/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-futures-0.4.79/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-macro-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-macro-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-macro-support-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-macro-support-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-shared-0.2.129/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-bindgen-shared-0.2.129/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-streams-0.4.2/LICENSE-APACHE": {
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "mode": "0o644",
+      "bytes": 9723
+    },
+    "v2/qa/notices/cargo-tls-helper/wasm-streams-0.4.2/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/cargo-tls-helper/web-sys-0.3.106/LICENSE-APACHE": {
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "mode": "0o644",
+      "bytes": 10847
+    },
+    "v2/qa/notices/cargo-tls-helper/web-sys-0.3.106/LICENSE-MIT": {
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "mode": "0o644",
+      "bytes": 1057
+    },
+    "v2/qa/notices/cargo-tls-helper/web-time-1.1.0/LICENSE-APACHE": {
+      "sha256": "54a744942eb3fa63a74d8d359989ed6962c04f3f10ff20cfa08ff8aa7efbe4e6",
+      "mode": "0o644",
+      "bytes": 11338
+    },
+    "v2/qa/notices/cargo-tls-helper/web-time-1.1.0/LICENSE-MIT": {
+      "sha256": "f428305bbf2e70fbd807af0f3c7ac1b7acfb95311640f451e9d2e48db6d7e96b",
+      "mode": "0o644",
+      "bytes": 1065
+    },
+    "v2/qa/notices/cargo-tls-helper/webpki-roots-1.0.11/LICENSE": {
+      "sha256": "e271993808fec50ab29350b39539cdec611a9103f827e0aa26d61da70e2d33f8",
+      "mode": "0o644",
+      "bytes": 2371
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-link-0.2.1/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-link-0.2.1/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-sys-0.52.0/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-sys-0.52.0/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-sys-0.61.2/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-sys-0.61.2/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-targets-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows-targets-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_aarch64_gnullvm-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_aarch64_gnullvm-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_aarch64_msvc-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_aarch64_msvc-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_i686_gnu-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_i686_gnu-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_i686_gnullvm-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_i686_gnullvm-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_i686_msvc-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_i686_msvc-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_x86_64_gnu-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_x86_64_gnu-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_x86_64_gnullvm-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_x86_64_gnullvm-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_x86_64_msvc-0.52.6/license-apache-2.0": {
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b",
+      "mode": "0o644",
+      "bytes": 11351
+    },
+    "v2/qa/notices/cargo-tls-helper/windows_x86_64_msvc-0.52.6/license-mit": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/cargo-tls-helper/writeable-0.6.4/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/yoke-0.8.4/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/yoke-derive-0.8.4/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/zerofrom-0.1.8/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/zerofrom-derive-0.1.8/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/zeroize-1.9.1/LICENSE-APACHE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/qa/notices/cargo-tls-helper/zeroize-1.9.1/LICENSE-MIT": {
+      "sha256": "8c7516d4b27b1e495be5e38b612298b63de48d05f49cdac94f70f3cd70f8864b",
+      "mode": "0o644",
+      "bytes": 1082
+    },
+    "v2/qa/notices/cargo-tls-helper/zerotrie-0.2.5/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/zerovec-0.11.9/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/zerovec-derive-0.11.7/LICENSE": {
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+      "mode": "0o644",
+      "bytes": 2195
+    },
+    "v2/qa/notices/cargo-tls-helper/zmij-1.0.23/LICENSE-MIT": {
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "mode": "0o644",
+      "bytes": 1023
+    },
+    "v2/qa/notices/npm/@inquirer/ansi/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/checkbox/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/confirm/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/core/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/core/wrap-ansi/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/@inquirer/editor/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/expand/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/external-editor/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/figures/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/input/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/number/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/password/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/prompts/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/rawlist/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/search/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/select/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@inquirer/type/LICENSE": {
+      "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23",
+      "mode": "0o644",
+      "bytes": 1058
+    },
+    "v2/qa/notices/npm/@oclif/core/LICENSE": {
+      "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/@oclif/plugin-autocomplete/LICENSE": {
+      "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/@oclif/plugin-autocomplete/ejs/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/qa/notices/npm/@oclif/plugin-help/LICENSE": {
+      "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/@oclif/plugin-not-found/LICENSE": {
+      "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/@raycast/api/@types/node/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/npm/@raycast/api/@types/react/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/npm/@raycast/api/undici-types/LICENSE": {
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "mode": "0o644",
+      "bytes": 1090
+    },
+    "v2/qa/notices/npm/@types/json-bigint/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/npm/@types/node/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/npm/@types/react/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "mode": "0o644",
+      "bytes": 1141
+    },
+    "v2/qa/notices/npm/agent-base/README.grant.md": {
+      "sha256": "f1425c3b72330fe4fb2aa5a2fb152e939bdf534692a32b5f0b38f74147b98556",
+      "mode": "0o644",
+      "bytes": 5056
+    },
+    "v2/qa/notices/npm/ansi-escapes/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/ansi-regex/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/ansi-styles/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/ansis/LICENSE": {
+      "sha256": "87ec186ac7438102db7ee5dae084510a81277ef631235c7712639c146c554737",
+      "mode": "0o644",
+      "bytes": 740
+    },
+    "v2/qa/notices/npm/async/LICENSE": {
+      "sha256": "d9fed24f132985934fca621c4dc1dfb53e03377a24d0568d424383d7eaa9c0ac",
+      "mode": "0o644",
+      "bytes": 1063
+    },
+    "v2/qa/notices/npm/asynckit/LICENSE": {
+      "sha256": "1953150d5d4b10c7542cee6f6e0c613b2682545233f069d75cfff1936386ce10",
+      "mode": "0o644",
+      "bytes": 1078
+    },
+    "v2/qa/notices/npm/axios/LICENSE": {
+      "sha256": "82761059eaedacb3356803aea8a170d8298609f91b14fc32ee1bfb40d690183c",
+      "mode": "0o644",
+      "bytes": 1084
+    },
+    "v2/qa/notices/npm/balanced-match/LICENSE.md": {
+      "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5",
+      "mode": "0o644",
+      "bytes": 1155
+    },
+    "v2/qa/notices/npm/bignumber.js/LICENCE.md": {
+      "sha256": "def75ba75d6426f1c3f02addf8e175fbe6e0d8a82e541cbdffc16d2bd8fd7d6a",
+      "mode": "0o644",
+      "bytes": 1147
+    },
+    "v2/qa/notices/npm/brace-expansion/LICENSE": {
+      "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e",
+      "mode": "0o644",
+      "bytes": 1144
+    },
+    "v2/qa/notices/npm/call-bind-apply-helpers/LICENSE": {
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/chardet/LICENSE": {
+      "sha256": "04c53d57d2262d584caa8403251095d51df02146aa4628b6c01e63753bc64b3d",
+      "mode": "0o644",
+      "bytes": 1059
+    },
+    "v2/qa/notices/npm/clean-stack/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/cli-spinners/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/cli-width/LICENSE": {
+      "sha256": "31493c14dc0b4eb1e06fe5d4bab3ca4e3b40f8749433455c713863238600cf1a",
+      "mode": "0o644",
+      "bytes": 757
+    },
+    "v2/qa/notices/npm/color-convert/LICENSE": {
+      "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4",
+      "mode": "0o644",
+      "bytes": 1087
+    },
+    "v2/qa/notices/npm/color-name/LICENSE": {
+      "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2",
+      "mode": "0o644",
+      "bytes": 1085
+    },
+    "v2/qa/notices/npm/combined-stream/License": {
+      "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+      "mode": "0o644",
+      "bytes": 1085
+    },
+    "v2/qa/notices/npm/csstype/LICENSE": {
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+      "mode": "0o644",
+      "bytes": 1062
+    },
+    "v2/qa/notices/npm/debug/LICENSE": {
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95",
+      "mode": "0o644",
+      "bytes": 1139
+    },
+    "v2/qa/notices/npm/delayed-stream/License": {
+      "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+      "mode": "0o644",
+      "bytes": 1085
+    },
+    "v2/qa/notices/npm/dequal/license": {
+      "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae",
+      "mode": "0o644",
+      "bytes": 1114
+    },
+    "v2/qa/notices/npm/dunder-proto/LICENSE": {
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "mode": "0o644",
+      "bytes": 1073
+    },
+    "v2/qa/notices/npm/ejs/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "0o644",
+      "bytes": 11358
+    },
+    "v2/qa/notices/npm/emoji-regex/LICENSE-MIT.txt": {
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "mode": "0o644",
+      "bytes": 1077
+    },
+    "v2/qa/notices/npm/es-define-property/LICENSE": {
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/es-errors/LICENSE": {
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/es-object-atoms/LICENSE": {
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/es-set-tostringtag/LICENSE": {
+      "sha256": "1a3aeb1f1398bd697d57c3c585faadf59d825aca6e3162cd7eeb72ff76eb2466",
+      "mode": "0o644",
+      "bytes": 1073
+    },
+    "v2/qa/notices/npm/esbuild/LICENSE.md": {
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "mode": "0o644",
+      "bytes": 1069
+    },
+    "v2/qa/notices/npm/escape-string-regexp/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/fast-levenshtein/LICENSE.md": {
+      "sha256": "942a98cb8846a6354266193f173c1354615827fbb7d67f68399599dff12c4d6a",
+      "mode": "0o644",
+      "bytes": 1100
+    },
+    "v2/qa/notices/npm/fastest-levenshtein/LICENSE.md": {
+      "sha256": "b8baf91be313643f3e87a01da77704b68e12795184a62e51e537a5a43c2932f3",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    "v2/qa/notices/npm/fdir/LICENSE": {
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+      "mode": "0o644",
+      "bytes": 1053
+    },
+    "v2/qa/notices/npm/filelist/balanced-match/LICENSE.md": {
+      "sha256": "a1bd5deadb6a06dd74efa852c1b8b23f63b67f2214fbe9c8bd591da51da69268",
+      "mode": "0o644",
+      "bytes": 1096
+    },
+    "v2/qa/notices/npm/filelist/brace-expansion/LICENSE": {
+      "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14",
+      "mode": "0o644",
+      "bytes": 1096
+    },
+    "v2/qa/notices/npm/filelist/minimatch/LICENSE": {
+      "sha256": "d11323827fa4edeaafc437cc5b91b6971b335f0127efeeb42bf5122fe8657e8f",
+      "mode": "0o644",
+      "bytes": 775
+    },
+    "v2/qa/notices/npm/follow-redirects/LICENSE": {
+      "sha256": "bfa8a54bb952ccda79f0f1889721d108f5b605babbb2b8a3705ffb52f4132eb7",
+      "mode": "0o644",
+      "bytes": 1136
+    },
+    "v2/qa/notices/npm/form-data/License": {
+      "sha256": "e5b780d4f38d1d3328e3e53186c4e62d3fa149ea6f2bacd5de5ad0c30ac85343",
+      "mode": "0o644",
+      "bytes": 1118
+    },
+    "v2/qa/notices/npm/fsevents/LICENSE": {
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1",
+      "mode": "0o644",
+      "bytes": 1133
+    },
+    "v2/qa/notices/npm/function-bind/LICENSE": {
+      "sha256": "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e",
+      "mode": "0o644",
+      "bytes": 1052
+    },
+    "v2/qa/notices/npm/get-intrinsic/LICENSE": {
+      "sha256": "39c5ec504cf6bd5cd782a7c695828e09189df79f5d94840e4f08feb97b9fd416",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/get-package-type/LICENSE": {
+      "sha256": "24a4cce7958e3905080069a18952f1f35796fcd861b4c5686047f0a33faa21ed",
+      "mode": "0o644",
+      "bytes": 1068
+    },
+    "v2/qa/notices/npm/get-proto/LICENSE": {
+      "sha256": "be46ce1e3b0479af9ce82d22b465a6d7d2ff084fca0aaf3d54172da2b5eb5781",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/gopd/LICENSE": {
+      "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/has-flag/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/has-symbols/LICENSE": {
+      "sha256": "206c1adcf206dc0031b11232f5b054ec5f1662407ab1ca415247921cab2068ab",
+      "mode": "0o644",
+      "bytes": 1071
+    },
+    "v2/qa/notices/npm/has-tostringtag/LICENSE": {
+      "sha256": "e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa",
+      "mode": "0o644",
+      "bytes": 1067
+    },
+    "v2/qa/notices/npm/hasown/LICENSE": {
+      "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a",
+      "mode": "0o644",
+      "bytes": 1083
+    },
+    "v2/qa/notices/npm/https-proxy-agent/README.grant.md": {
+      "sha256": "32f0856d2c43df7d05cca960fdee84e1e38ab545bd7b2186433dfa41aa90a712",
+      "mode": "0o644",
+      "bytes": 4761
+    },
+    "v2/qa/notices/npm/iconv-lite/LICENSE": {
+      "sha256": "ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d",
+      "mode": "0o644",
+      "bytes": 1064
+    },
+    "v2/qa/notices/npm/indent-string/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/ip-toolkit/LICENSE": {
+      "sha256": "837309920e551a479495a2eae5e6e2bb651bee38be3072bb11d10cd9685b2deb",
+      "mode": "0o644",
+      "bytes": 1077
+    },
+    "v2/qa/notices/npm/is-docker/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/is-fullwidth-code-point/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/is-inside-container/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/is-wsl/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/json-bigint/LICENSE": {
+      "sha256": "def82c085d05e795fe6a9cb5b70c48e022212355afc0e91d4de047cade28df06",
+      "mode": "0o644",
+      "bytes": 1081
+    },
+    "v2/qa/notices/npm/lilconfig/LICENSE": {
+      "sha256": "d70f9e316930b4333b6f51af5f0d0cb7ded6a4a2641549aa088027aaff91e950",
+      "mode": "0o644",
+      "bytes": 1074
+    },
+    "v2/qa/notices/npm/math-intrinsics/LICENSE": {
+      "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1",
+      "mode": "0o644",
+      "bytes": 1073
+    },
+    "v2/qa/notices/npm/mime-db/LICENSE": {
+      "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b",
+      "mode": "0o644",
+      "bytes": 1172
+    },
+    "v2/qa/notices/npm/mime-types/LICENSE": {
+      "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6",
+      "mode": "0o644",
+      "bytes": 1167
+    },
+    "v2/qa/notices/npm/minimatch/LICENSE.md": {
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+      "mode": "0o644",
+      "bytes": 1550
+    },
+    "v2/qa/notices/npm/ms/license.md": {
+      "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801",
+      "mode": "0o644",
+      "bytes": 1079
+    },
+    "v2/qa/notices/npm/mute-stream/LICENSE": {
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "mode": "0o644",
+      "bytes": 765
+    },
+    "v2/qa/notices/npm/picocolors/LICENSE": {
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "mode": "0o644",
+      "bytes": 787
+    },
+    "v2/qa/notices/npm/picomatch/LICENSE": {
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "mode": "0o644",
+      "bytes": 1091
+    },
+    "v2/qa/notices/npm/powershell-utils/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/proxy-from-env/LICENSE": {
+      "sha256": "f55828df4b8752c48e765a806465b76a103e3cb363379c569b15a1df2ba2d79e",
+      "mode": "0o644",
+      "bytes": 1087
+    },
+    "v2/qa/notices/npm/react/LICENSE": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "mode": "0o644",
+      "bytes": 1088
+    },
+    "v2/qa/notices/npm/safer-buffer/LICENSE": {
+      "sha256": "4bc935e71be198c67ddf3c2b5fddb195f6edc182bfc155a96a6db61b44b494b9",
+      "mode": "0o644",
+      "bytes": 1094
+    },
+    "v2/qa/notices/npm/semver/LICENSE": {
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "mode": "0o644",
+      "bytes": 765
+    },
+    "v2/qa/notices/npm/signal-exit/LICENSE.txt": {
+      "sha256": "b173e19b9a78df305577ace0e52ef45a4bcc915ea28b47b256dc3b68dcb1f7e7",
+      "mode": "0o644",
+      "bytes": 790
+    },
+    "v2/qa/notices/npm/string-width/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/strip-ansi/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/supports-color/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/tinyglobby/LICENSE": {
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+      "mode": "0o644",
+      "bytes": 1076
+    },
+    "v2/qa/notices/npm/tsx/LICENSE": {
+      "sha256": "8dded67841a9261a622c739fb61c81785e93765de852828ceeb9403d20a74581",
+      "mode": "0o644",
+      "bytes": 1088
+    },
+    "v2/qa/notices/npm/tsx/esbuild/LICENSE.md": {
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "mode": "0o644",
+      "bytes": 1069
+    },
+    "v2/qa/notices/npm/type-fest/license": {
+      "sha256": "64a93ffc0a06a2266dbb57ed7ebe3b56ba66ab337b6347fabdbf86c76819fbae",
+      "mode": "0o644",
+      "bytes": 1116
+    },
+    "v2/qa/notices/npm/typescript/LICENSE.txt": {
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "mode": "0o644",
+      "bytes": 9197
+    },
+    "v2/qa/notices/npm/typescript/ThirdPartyNoticeText.txt": {
+      "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c",
+      "mode": "0o644",
+      "bytes": 37824
+    },
+    "v2/qa/notices/npm/undici-types/LICENSE": {
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "mode": "0o644",
+      "bytes": 1090
+    },
+    "v2/qa/notices/npm/widest-line/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "mode": "0o644",
+      "bytes": 1109
+    },
+    "v2/qa/notices/npm/wordwrap/LICENSE": {
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "mode": "0o644",
+      "bytes": 1073
+    },
+    "v2/qa/notices/npm/wrap-ansi/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/wsl-utils/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/npm/yoctocolors-cjs/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "mode": "0o644",
+      "bytes": 1117
+    },
+    "v2/qa/notices/schema-npm/ajv-formats/LICENSE": {
+      "sha256": "9df3bb69929a3b650ed73b3bfa1756725aaff0ac296461605753547004eafeaf",
+      "mode": "0o644",
+      "bytes": 1074
+    },
+    "v2/qa/notices/schema-npm/ajv/LICENSE": {
+      "sha256": "a05350a88e318e4f5f2c2a1ff1e2e88daa4dd38e6e78b71cccae422bdc762cc3",
+      "mode": "0o644",
+      "bytes": 1090
+    },
+    "v2/qa/notices/schema-npm/fast-deep-equal/LICENSE": {
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "mode": "0o644",
+      "bytes": 1074
+    },
+    "v2/qa/notices/schema-npm/fast-uri/LICENSE": {
+      "sha256": "b010b0dfdfdb23d7396e03b82cd4621fc9bb8f95d6b0aea70b9c24e12074c786",
+      "mode": "0o644",
+      "bytes": 1813
+    },
+    "v2/qa/notices/schema-npm/json-schema-traverse/LICENSE": {
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "mode": "0o644",
+      "bytes": 1074
+    },
+    "v2/qa/notices/schema-npm/require-from-string/license": {
+      "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f",
+      "mode": "0o644",
+      "bytes": 1128
+    },
+    "v2/qa/npm-archive-audit.json": {
+      "sha256": "b6ac6d47e80fad505d42af7cf61f12536b65ad99b93d320f6758a294631a4ae5",
+      "mode": "0o644",
+      "bytes": 188009
+    },
+    "v2/qa/oracle.cjs": {
+      "sha256": "5d0e86e0328239edc681fd2964ea997049f39efa4796bc32ccb5cf27ed7c2df9",
+      "mode": "0o644",
+      "bytes": 3480
+    },
+    "v2/qa/package.py": {
+      "sha256": "d266dd33cdbb9dcfaf2943c62ee86f182da79f92932afa1d00dbc19cbd0d5af8",
+      "mode": "0o644",
+      "bytes": 3611
+    },
+    "v2/qa/parent-final-review.json": {
+      "sha256": "e54fd1022927ae27843ac18d9638d290c91f01f9d86ee80c543b36890ceba3b5",
+      "mode": "0o644",
+      "bytes": 2341
+    },
+    "v2/qa/parent-review-findings.json": {
+      "sha256": "858d851e0c414d062413f6d4a3e27cbc9ef9bbca40c0f9c8ca6bc5eebb50b741",
+      "mode": "0o644",
+      "bytes": 3614
+    },
+    "v2/qa/parity.py": {
+      "sha256": "116b34434ab0633bb2e2d5367985617bd89d87aae92f84f2788afa4b3aab8d5b",
+      "mode": "0o644",
+      "bytes": 519
+    },
+    "v2/qa/protocol.py": {
+      "sha256": "3f423d6b1bc07f3cb9ddd1b41d0f065840492ca2aeaf6e8bde89c0be966fd6c0",
+      "mode": "0o644",
+      "bytes": 4773
+    },
+    "v2/qa/reference-hashes.json": {
+      "sha256": "e970dc309473276115f1367cfa229c6b9bb38f992215f7a485c8379642dd8396",
+      "mode": "0o644",
+      "bytes": 12990
+    },
+    "v2/qa/references.py": {
+      "sha256": "3feb230524d919c9de0395ca89b71952bfbc4d15819b648dcff34c138617e45b",
+      "mode": "0o644",
+      "bytes": 1426
+    },
+    "v2/qa/run.py": {
+      "sha256": "2c830d3d096c58bec71663caae90faf1e3bfba123080abe881627dfd2885a04a",
+      "mode": "0o644",
+      "bytes": 3780
+    },
+    "v2/qa/schema-npm-archive-audit.json": {
+      "sha256": "2b0ac74f1aa92aaac70212df5e8b5fd3c60d2e174086e1ecef1a7583b96fdf4a",
+      "mode": "0o644",
+      "bytes": 31786
+    },
+    "v2/qa/schema-test.cjs": {
+      "sha256": "a677084bcd1c7037b525302cf36998ee0aafe5412910a0e468d893bdee1f7dec",
+      "mode": "0o644",
+      "bytes": 1834
+    },
+    "v2/qa/schema/package-lock.json": {
+      "sha256": "02aef730414031cb96b5ae335fa29c629ff431a14b12470547d0ba40fece3876",
+      "mode": "0o644",
+      "bytes": 2884
+    },
+    "v2/qa/schema/package.json": {
+      "sha256": "1551f6d14c574e01e37541865cf2710c4a1a9733d4202e909a07f0c91d268976",
+      "mode": "0o644",
+      "bytes": 117
+    },
+    "v2/qa/tls.py": {
+      "sha256": "6f911020ae891cae3ddcf7cf3f1e1865c95fbbcb54e57b76080407399d99dca7",
+      "mode": "0o644",
+      "bytes": 4150
+    },
+    "v2/qa/validation-results.json": {
+      "sha256": "cc884acaddea79667e63fef31752d998855c1a659b36905437cb12c050a42142",
+      "mode": "0o644",
+      "bytes": 13572
+    },
+    "v2/src/ip.rs": {
+      "sha256": "39bb007ac4369ee2c87bcac97b3e2d8207743b639b35bf74d342c995274a0183",
+      "mode": "0o644",
+      "bytes": 9397
+    },
+    "v2/src/ipv6.regex": {
+      "sha256": "2e07c548d6ff8450f0846cffff304dbb6d912be0a69601546c5c0d2d69045ca5",
+      "mode": "0o644",
+      "bytes": 1308
+    },
+    "v2/src/lib.rs": {
+      "sha256": "f7cfd183eb7895628472bcce819d9b84b26d3497a1dd212fbfec99681483d15a",
+      "mode": "0o644",
+      "bytes": 22870
+    },
+    "v2/src/main.rs": {
+      "sha256": "199c0dd1b28b219c52ca9aa40c3e5f35e5eb84a52ee373384b0c94cf11a7caf1",
+      "mode": "0o644",
+      "bytes": 631
+    },
+    "v2/src/net.rs": {
+      "sha256": "a250e5b3c72e693fef3ec5dfa7c4f17a373d96a3c234f2479a6f032c7ae139b1",
+      "mode": "0o644",
+      "bytes": 3658
+    },
+    "v2/src/settings.rs": {
+      "sha256": "d5e86bab553fc815d7859304dbb461b069bb25bb1973425cec41fa3c41e10c14",
+      "mode": "0o644",
+      "bytes": 4136
+    },
+    "v2/tests/transport.rs": {
+      "sha256": "db28f108f19dbd0f3348de5cd20e5f2ed7f29c150b1bf18ab529a8edcba5ed24",
+      "mode": "0o644",
+      "bytes": 3113
+    }
+  }
+}

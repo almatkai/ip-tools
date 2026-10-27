@@ -1,0 +1,9 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),Ajv=require('./schema/node_modules/ajv/dist/2020'),formats=require('./schema/node_modules/ajv-formats');
+const ajv=new Ajv({strict:false,allErrors:true});formats(ajv);
+const validate=ajv.compile(JSON.parse(fs.readFileSync(path.join(root,'qa/fixtures/host/schemas/extension-v3.schema.json'))));
+const original=JSON.parse(fs.readFileSync(path.join(root,'extension.json')));assert(validate(original),JSON.stringify(validate.errors));let negative=0;
+for(const edit of [x=>delete x.execution,x=>x.schemaVersion=2,x=>x.runtime='javascript',x=>x.execution='builtin',x=>x.protocolVersion=2,x=>x.id='com.tezbar.ip-tools',x=>x.commands=[],x=>x.preferences={},x=>x.replaces=[],x=>x.capabilities=['network'],x=>x.commands[0].refreshMs=1,x=>x.commands[0].timeoutMs=300001,x=>x.commands[0].concurrency='parallel',x=>x.commands[0].platforms=['Android'],x=>x.unknown=true,x=>x.files={'../escape':'a'.repeat(64)},x=>x.files={'/absolute':'a'.repeat(64)},x=>x.files={'bin/tool':'z'.repeat(64)},x=>x.artifacts={fake:{}},x=>x.verification[0].state='verified',x=>x.artifacts={'aarch64-apple-darwin':{url:'http://example.com/x.zip',sha256:'a'.repeat(64),executable:'bin/tool',executableSha256:'b'.repeat(64)}}]){const v=structuredClone(original);edit(v);assert(!validate(v));negative++;}
+const packagePath=process.argv[2];if(packagePath){const v=JSON.parse(fs.readFileSync(packagePath));assert(validate(v),JSON.stringify(validate.errors));}
+console.log('Full pinned draft-2020 schema: source positive +',negative,'meaningful negatives'+(packagePath?' + packaged positive':''));
+fs.writeFileSync(path.join(root,'.work/schema-result.json'),JSON.stringify({negative,sourcePositive:true,packagedPositive:Boolean(packagePath)}));

@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-27T17:53:25.544180+00:00",
+  "scope": "Parent independent repeat after round 2; no native host install/build/GUI acceptance",
+  "fullRunner": {
+    "passed": 28,
+    "toolingBlocked": 2
+  },
+  "sourceOracle": {
+    "vectors": 2708,
+    "throwing": 21,
+    "copies": 4220,
+    "failures": []
+  },
+  "lifecycle": {
+    "checks": 246,
+    "cancelledOpens": 160
+  },
+  "renderer": {
+    "checks": 177,
+    "originalFailed": true
+  },
+  "directImmutableGitComparisons": 57,
+  "freshOriginalIcon": {
+    "bytes": 28354,
+    "sha256": "0e7710cd7aa7cb4530f767115623f7064a997365344eb9fd257e43c898befaa7",
+    "comparison": "Parent freshly fetched pinned upstream == V1 == V2"
+  },
+  "productionBuild": {
+    "binarySha256": "4e4ff1c344266989c0d6c39b73e3315b48f36e3fc99b734216d65f9e0a8ec677",
+    "zipSha256": "23d49409042100fc8f2f6c8cbfb891887fb115b16c26146f83fb1e73d75a0950",
+    "closedMembers": 298,
+    "sourceInputs": {
+      "Cargo.lock": "8248ed286660fa5fdc11b1e86f995f9a046094ea87ef43726622f68df250a86e",
+      "Cargo.toml": "09c1a9bc449fbc76a065e54263f2adb880a149c7877db04be26a7395b7d19eec",
+      "extension.json": "d0fd362a04da454cf359fbc39dca6a3483e4cf9532afa7399971fec6651f149e",
+      "src/ip.rs": "39bb007ac4369ee2c87bcac97b3e2d8207743b639b35bf74d342c995274a0183",
+      "src/ipv6.regex": "2e07c548d6ff8450f0846cffff304dbb6d912be0a69601546c5c0d2d69045ca5",
+      "src/lib.rs": "f7cfd183eb7895628472bcce819d9b84b26d3497a1dd212fbfec99681483d15a",
+      "src/main.rs": "199c0dd1b28b219c52ca9aa40c3e5f35e5eb84a52ee373384b0c94cf11a7caf1",
+      "src/net.rs": "a250e5b3c72e693fef3ec5dfa7c4f17a373d96a3c234f2479a6f032c7ae139b1",
+      "src/settings.rs": "d5e86bab553fc815d7859304dbb461b069bb25bb1973425cec41fa3c41e10c14"
+    },
+    "sdkPin": "e955911f0bf5b558f9d3eb5183df0adc95c22af2"
+  },
+  "review": "Parent hidden-retry regression preserved; complete query/choice client revision, latest input and owned recovery fixes reviewed. Full actual renderer/process tests and fresh extracted production repeated.",
+  "remaining": "Host patch unapplied; native GUI/MSVC/live provider not-run; missing MinGW blocks; finite parity; original HTTP provider; documented QA-only license-text gaps and incomplete XERJ",
+  "stagedAudit": "All staged blobs will be rehashed against regenerated candidate inventory before commit"
+}

@@ -1,0 +1,17 @@
+IP Tools — standalone external Rust V2 development package.
+Original extension: Raycast extensions/ip-tools, meguoe and contributors,
+commit 6734d85992290066fd31a7f5bee3cca3d3545a1a, MIT (notices/raycast-LICENSE).
+V1 Tezbar source: almatkai, commit 95d41603aa6fccefe31f507c70f21e35e24c69f4.
+Compatibility implementation derives from ip-toolkit 1.0.20 (meguoe), MIT;
+its authentic grant is included as notices/ip-toolkit-LICENSE.
+Exact original extension_icon.png is included without conversion or redrawing.
+The executable uses tezbar-extension-sdk 0.1.1 at immutable HTTPS Git revision
+e955911f0bf5b558f9d3eb5183df0adc95c22af2, Apache-2.0 (sdk-LICENSE/sdk-NOTICE).
+Authentic Cargo archive license/copyright/AUTHORS/NOTICE files for all locked
+registry dependencies, including other targets, are under notices/cargo/.
+The r-efi MIT grant and copyright holders reside in its included AUTHORS file.
+QA-only npm archives and their license-text evidence are listed separately in
+qa/npm-archive-audit.json and qa/schema-npm-archive-audit.json, outside this ZIP.
+No JavaScript runtime, Raycast private runtime resource, QA fixture, private CA,
+endpoint override, app profile, credential, host patch or test helper is shipped.
+This is a DEV archive. Both native platform acceptance states remain not-run.
