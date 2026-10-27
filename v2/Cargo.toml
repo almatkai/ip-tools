@@ -1,0 +1,18 @@
+[package]
+name = "tezbar-ip-tools"
+version = "2.0.0-dev.1"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+
+[dependencies]
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust.git", rev = "e955911f0bf5b558f9d3eb5183df0adc95c22af2", version = "=0.1.1" }
+serde_json = { version = "1", features = ["preserve_order", "arbitrary_precision"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "time", "sync", "net", "io-util"] }
+regex = "1"
+num-bigint = "0.4"
+num-traits = "0.2"
+reqwest = { version = "=0.12.28", default-features = false, features = ["rustls-tls", "stream"] }
+uuid = { version = "=1.23.3", features = ["v4"] }
+tempfile = "3"
+ryu-js = "1"

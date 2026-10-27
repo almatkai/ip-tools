@@ -1,0 +1,405 @@
+{
+  "sourceCommit": "95d41603aa6fccefe31f507c70f21e35e24c69f4",
+  "branch": "feat/native-v2-rust",
+  "scope": "worktree candidates; no staged-blob verification",
+  "v1": {
+    "tests": 13,
+    "typecheck": "passed",
+    "exactLockedCopy": true
+  },
+  "rust": {
+    "stable": "1.98.0",
+    "msrv": "1.85.0",
+    "tests": 3,
+    "strictAllTargetClippy": "passed on stable and MSRV",
+    "windowsGnu": "tooling-blocked: missing x86_64-w64-mingw32-gcc; dlltool absent; MSVC target not installed"
+  },
+  "sourceOracle": {
+    "vectors": 2708,
+    "throwing": 21,
+    "copies": 4220,
+    "failures": [],
+    "corpusSha256": "33107b8ca926425be8e3f7d7047ed7d62f83ce1f245f478bcd0fb290fb1ab4f8",
+    "actualSourceOracleSha256": "8e09920a9c749f589e832b6ffc0b220100edd3a80741b01cf786a86f3ffe9ed6",
+    "corpusProducerSha256": "ff56229a80bf5209fd9fda38223d3a59cb1e4a90a317da1bd07398dd1007bee3",
+    "oracleProducerSha256": "5d0e86e0328239edc681fd2964ea997049f39efa4796bc32ccb5cf27ed7c2df9"
+  },
+  "lifecycle": {
+    "checks": 246,
+    "cancelledOpens": 160
+  },
+  "renderer": {
+    "checks": 177,
+    "originalFailed": true
+  },
+  "fullHostClipboardProducerChecks": 8,
+  "fullGeoHttpFixture": {
+    "checks": 13,
+    "requests": [
+      "/json/::1?lang=en&&fields=61151",
+      "/json/1.1.1.1?lang=en&&fields=61151",
+      "/json/::1?lang=en&&fields=61151",
+      "/json/?lang=en&&fields=61151",
+      "/json/?lang=zh-CN&&fields=61151",
+      "/json/::1?lang=zh-CN&&fields=61151"
+    ],
+    "originReplacementOnly": true
+  },
+  "tls": {
+    "productionPrivateCaRejected": true,
+    "qaTrustedTlsSuccess": true,
+    "response": {
+      "status": "success",
+      "query": "::1",
+      "country": "TLS fixture",
+      "large": 9007199254740992,
+      "tiny": 1e-07,
+      "whole": 1
+    }
+  },
+  "axios": {
+    "http": true,
+    "tls": true,
+    "sourceGeoCases": 8,
+    "numberRounding": true
+  },
+  "schema": {
+    "negative": 21,
+    "sourcePositive": true,
+    "packagedPositive": true
+  },
+  "fullRun": {
+    "passed": 28,
+    "toolingBlocked": 2,
+    "stages": [
+      {
+        "name": "v1-npm-ci",
+        "exit": 0,
+        "log": ".work/run-logs/v1-npm-ci.log",
+        "state": "passed"
+      },
+      {
+        "name": "v1-tests",
+        "exit": 0,
+        "log": ".work/run-logs/v1-tests.log",
+        "state": "passed"
+      },
+      {
+        "name": "v1-typecheck",
+        "exit": 0,
+        "log": ".work/run-logs/v1-typecheck.log",
+        "state": "passed"
+      },
+      {
+        "name": "schema-npm-ci",
+        "exit": 0,
+        "log": ".work/run-logs/schema-npm-ci.log",
+        "state": "passed"
+      },
+      {
+        "name": "references",
+        "exit": 0,
+        "log": ".work/run-logs/references.log",
+        "state": "passed"
+      },
+      {
+        "name": "fmt",
+        "exit": 0,
+        "log": ".work/run-logs/fmt.log",
+        "state": "passed"
+      },
+      {
+        "name": "tests",
+        "exit": 0,
+        "log": ".work/run-logs/tests.log",
+        "state": "passed"
+      },
+      {
+        "name": "strict-clippy",
+        "exit": 0,
+        "log": ".work/run-logs/strict-clippy.log",
+        "state": "passed"
+      },
+      {
+        "name": "msrv-tests",
+        "exit": 0,
+        "log": ".work/run-logs/msrv-tests.log",
+        "state": "passed"
+      },
+      {
+        "name": "msrv-clippy",
+        "exit": 0,
+        "log": ".work/run-logs/msrv-clippy.log",
+        "state": "passed"
+      },
+      {
+        "name": "build",
+        "exit": 0,
+        "log": ".work/run-logs/build.log",
+        "state": "passed"
+      },
+      {
+        "name": "source-oracle",
+        "exit": 0,
+        "log": ".work/run-logs/source-oracle.log",
+        "state": "passed"
+      },
+      {
+        "name": "sdk-pipe-oracle",
+        "exit": 0,
+        "log": ".work/run-logs/sdk-pipe-oracle.log",
+        "state": "passed"
+      },
+      {
+        "name": "lifecycle",
+        "exit": 0,
+        "log": ".work/run-logs/lifecycle.log",
+        "state": "passed"
+      },
+      {
+        "name": "host-patch",
+        "exit": 0,
+        "log": ".work/run-logs/host-patch.log",
+        "state": "passed"
+      },
+      {
+        "name": "full-renderer",
+        "exit": 0,
+        "log": ".work/run-logs/full-renderer.log",
+        "state": "passed"
+      },
+      {
+        "name": "pinned-host-types",
+        "exit": 0,
+        "log": ".work/run-logs/pinned-host-types.log",
+        "state": "passed"
+      },
+      {
+        "name": "full-host-producer",
+        "exit": 0,
+        "log": ".work/run-logs/full-host-producer.log",
+        "state": "passed"
+      },
+      {
+        "name": "whole-geo-http",
+        "exit": 0,
+        "log": ".work/run-logs/whole-geo-http.log",
+        "state": "passed"
+      },
+      {
+        "name": "separate-tls-helper",
+        "exit": 0,
+        "log": ".work/run-logs/separate-tls-helper.log",
+        "state": "passed"
+      },
+      {
+        "name": "locked-axios-fixtures",
+        "exit": 0,
+        "log": ".work/run-logs/locked-axios-fixtures.log",
+        "state": "passed"
+      },
+      {
+        "name": "full-schema",
+        "exit": 0,
+        "log": ".work/run-logs/full-schema.log",
+        "state": "passed"
+      },
+      {
+        "name": "fetch-all-targets",
+        "exit": 0,
+        "log": ".work/run-logs/fetch-all-targets.log",
+        "state": "passed"
+      },
+      {
+        "name": "cargo-archives",
+        "exit": 0,
+        "log": ".work/run-logs/cargo-archives.log",
+        "state": "passed"
+      },
+      {
+        "name": "npm-archives",
+        "exit": 0,
+        "log": ".work/run-logs/npm-archives.log",
+        "state": "passed"
+      },
+      {
+        "name": "windows-check",
+        "exit": 101,
+        "log": ".work/run-logs/windows-check.log",
+        "state": "tooling-blocked"
+      },
+      {
+        "name": "windows-clippy",
+        "exit": 101,
+        "log": ".work/run-logs/windows-clippy.log",
+        "state": "tooling-blocked"
+      },
+      {
+        "name": "fresh-arm64",
+        "exit": 0,
+        "log": ".work/run-logs/fresh-arm64.log",
+        "state": "passed"
+      },
+      {
+        "name": "dev-package",
+        "exit": 0,
+        "log": ".work/run-logs/dev-package.log",
+        "state": "passed"
+      },
+      {
+        "name": "diff-whitespace",
+        "exit": 0,
+        "log": ".work/run-logs/diff-whitespace.log",
+        "state": "passed"
+      }
+    ]
+  },
+  "executable": {
+    "path": ".work/fresh-b99cil4q/target/aarch64-apple-darwin/release/tezbar-ip-tools",
+    "sha256": "4e4ff1c344266989c0d6c39b73e3315b48f36e3fc99b734216d65f9e0a8ec677",
+    "architecture": "Mach-O 64-bit executable arm64",
+    "immutableSdk": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "fetchedSdkFixtureFiles": 11,
+    "sourceLockUnchanged": true,
+    "freshCargoHome": ".work/fresh-b99cil4q/cargo-home",
+    "freshTarget": ".work/fresh-b99cil4q/target",
+    "sourceInputs": {
+      "Cargo.lock": "8248ed286660fa5fdc11b1e86f995f9a046094ea87ef43726622f68df250a86e",
+      "Cargo.toml": "09c1a9bc449fbc76a065e54263f2adb880a149c7877db04be26a7395b7d19eec",
+      "extension.json": "d0fd362a04da454cf359fbc39dca6a3483e4cf9532afa7399971fec6651f149e",
+      "src/ip.rs": "39bb007ac4369ee2c87bcac97b3e2d8207743b639b35bf74d342c995274a0183",
+      "src/ipv6.regex": "2e07c548d6ff8450f0846cffff304dbb6d912be0a69601546c5c0d2d69045ca5",
+      "src/lib.rs": "f7cfd183eb7895628472bcce819d9b84b26d3497a1dd212fbfec99681483d15a",
+      "src/main.rs": "199c0dd1b28b219c52ca9aa40c3e5f35e5eb84a52ee373384b0c94cf11a7caf1",
+      "src/net.rs": "a250e5b3c72e693fef3ec5dfa7c4f17a373d96a3c234f2479a6f032c7ae139b1",
+      "src/settings.rs": "d5e86bab553fc815d7859304dbb461b069bb25bb1973425cec41fa3c41e10c14"
+    }
+  },
+  "devArchive": {
+    "archive": ".work/ip-tools-2.0.0-dev.1-aarch64-apple-darwin-DEV.zip",
+    "sha256": "23d49409042100fc8f2f6c8cbfb891887fb115b16c26146f83fb1e73d75a0950",
+    "size": 8910428,
+    "binarySha256": "4e4ff1c344266989c0d6c39b73e3315b48f36e3fc99b734216d65f9e0a8ec677",
+    "deterministicArchiveRebuild": true,
+    "extractedProductionProtocol": true,
+    "extractedRendererAndProcessChecks": 177,
+    "extractedLifecycleChecks": 246
+  },
+  "closedPackageFiles": 298,
+  "nativeAcceptance": {
+    "macOS": "not-run",
+    "Windows": "not-run"
+  },
+  "liveProvider": "not-run",
+  "hostPatch": "unapplied",
+  "searchCoverage": "XERJ incomplete: HTTP429 RSS memory watermark; complete source/Git/rg/hash fallback",
+  "hostCompilerContracts": {
+    "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "objects": {
+      "src/shared/desktop-api.ts": "67b93a2b71d7e39a99940ff81badd71886429df2d1a9244ccb191b7a1929e38f",
+      "src/shared/agent.ts": "8cb479092bc9ca9c6e05ace9fee89266198b7420f77b8d663417523008018880",
+      "src/shared/chat.ts": "370e3e23fbf889a8adc94be968ec4972947322bcfad25adbb84b942d55d613d0",
+      "src/shared/backgroundTasks.ts": "39f0ce096f0172c8fcdfedbe4b90df34045d12f29fdfe109906c3e56ddd3cf6b",
+      "src/shared/windowLayout.ts": "fe3500b80e5dad52fb13c53194e41b9402d9cb673fea1cd654afa2d728492ee6",
+      "src/shared/intent.ts": "63af4fc89c12de43a8081ba6f0b4cae3522e3991ea1d20feadb4640af20f0110",
+      "src/shared/clipboard.ts": "ca85f1068790867458bec4c482a2a460766538f4674afad6544a77577a6d7c95",
+      "src/shared/extensions.ts": "68435aa389dbcb8d41462dbdf19cac1b1903fa914e22c0157881310003c56602",
+      "src/shared/search.ts": "26d9cacc90d5debbf99d5f2eba1262d51a3f087287b486a3dcf8b2ad31d9f8ce",
+      "src/shared/extensionRuntime.ts": "47a290032a9967e2dee5142030b4ef8cfc5237a79521aa535f8a12d8c16deda4",
+      "src/shared/llmConfig.ts": "57e71207f992648912087c03e28f352c3df2395288064391a8a3dcc2335e1718",
+      "src/shared/voice.ts": "aed939fa56a96739be2f25cb01a810cd5eed7fc7e2dc52a971c15600be976f93",
+      "src/shared/knowledge.ts": "da65dd81dd121d5c500d6fdfd146cc9974b3661613aae17fab1552890ad347f8",
+      "src/shared/nativeCommands.ts": "544aa58cc4430bdd1bfd68f6b1dd6be5f3afcf22136400959a8c2c6964f9be52",
+      "src/shared/updater.ts": "e67e190279dd22e845f26e523565c7dff0380307ea1817495f3772d16d072c76",
+      "src/shared/systemStats.ts": "1bdb06ca4a2337e553cd6dfe7c4b4cbcbbaea42aea9304189d276286f4073e79",
+      "src/shared/permissions.ts": "6a20e4fc853790a7094d0a7682d9dbcf2c873ea419a4f7f4435899950eb821cb",
+      "src/shared/safety.ts": "ad35aaa0bd2347a545a7269df4edd95b2f855335ef7443f988cfb339fb67af52",
+      "src/shared/quickNotes.ts": "16be15d393e42ce6d07bb5fb4cc1940336fd2b7d9d8315bd5d8209589f5a69c1",
+      "src/shared/snippets.ts": "6bd132a7048b5f0652cbc96ae233ea20849d3a93475b60886c8be6d507ad754e",
+      "src/shared/terminal.ts": "121f3941c58bf10570b67af4cd788fc1130585889e1c64f506a4ee86606f7081"
+    },
+    "compiler": "5.9.3",
+    "boundaries": "Full component, full actual shared/desktop bridge definitions and exact extracted Surface props; React types from locked V1 QA, primitives declarations only. No full host build.",
+    "baseline": [
+      {
+        "file": "src/renderer/ExtensionRuntimeView.tsx",
+        "code": 2503,
+        "message": "Cannot find namespace 'JSX'."
+      },
+      {
+        "file": "src/renderer/ExtensionRuntimeView.tsx",
+        "code": 2503,
+        "message": "Cannot find namespace 'JSX'."
+      },
+      {
+        "file": "src/renderer/ExtensionRuntimeView.tsx",
+        "code": 2503,
+        "message": "Cannot find namespace 'JSX'."
+      },
+      {
+        "file": "src/shared/permissions.ts",
+        "code": 2503,
+        "message": "Cannot find namespace 'NodeJS'."
+      }
+    ],
+    "proposed": [
+      {
+        "file": "src/renderer/ExtensionRuntimeView.tsx",
+        "code": 2503,
+        "message": "Cannot find namespace 'JSX'."
+      },
+      {
+        "file": "src/renderer/ExtensionRuntimeView.tsx",
+        "code": 2503,
+        "message": "Cannot find namespace 'JSX'."
+      },
+      {
+        "file": "src/renderer/ExtensionRuntimeView.tsx",
+        "code": 2503,
+        "message": "Cannot find namespace 'JSX'."
+      },
+      {
+        "file": "src/shared/permissions.ts",
+        "code": 2503,
+        "message": "Cannot find namespace 'NodeJS'."
+      }
+    ],
+    "added": []
+  },
+  "round2ImmutableInputs": {
+    "originalInventoryChecks": [
+      "v2/src/ip.rs",
+      "v2/src/settings.rs",
+      "v2/src/net.rs",
+      "v2/src/main.rs",
+      "v2/src/ipv6.regex",
+      "v2/Cargo.toml",
+      "v2/Cargo.lock",
+      "v2/extension.json",
+      "v2/assets/extension_icon.png",
+      "v2/qa/corpus.py",
+      "v2/qa/oracle.cjs"
+    ],
+    "fixtureLockAndGrantChecks": 829,
+    "passed": true
+  },
+  "unappliedHostPatchSha256": "2a12b501f0b398ac265959cb3f0cdd2212a76c40a95dd6310e5529d9fbf42c94",
+  "round2": {
+    "resolved": [
+      "parent frozen retry reachability preserved",
+      "rapid dropdown latest intent",
+      "failed-input ownership recovery",
+      "crossed complete query/choice ownership"
+    ],
+    "nativeModelCannotAdvanceClientRevision": true,
+    "readOnlyRecovery": "exact client revision required; no input replay",
+    "effects": "consumable session-owned random IDs; no exactly-once claim",
+    "latestRealSdkSchedules": "forward/reverse wire order and independent host-completion order; failed/lost replies recovered with actual visible Refresh button",
+    "remainingBlockers": [
+      "unapplied/unaccepted host prerequisite; no real host build or GUI acceptance",
+      "missing MinGW gcc/dlltool for Windows GNU checks",
+      "macOS and Windows native verification not-run; source artifacts {}"
+    ],
+    "publication": "No stage/commit/push/PR/install/release/registration change"
+  }
+}
